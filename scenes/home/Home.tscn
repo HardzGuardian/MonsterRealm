@@ -1,0 +1,271 @@
+[gd_scene format=3 uid="uid://sd0tcc4okjic"]
+
+[ext_resource type="Script" uid="uid://dvdfh0xdxrjq0" path="res://scripts/home/Home.gd" id="1_home"]
+[ext_resource type="Texture2D" uid="uid://dgvl7d0jdxj83" path="res://assets/backgrounds/Home.png" id="2_bg"]
+[ext_resource type="Texture2D" path="res://assets/monsters/Alyx.png" id="3_doge"]
+[ext_resource type="Texture2D" path="res://assets/ui/world.png" id="4_world"]
+[ext_resource type="Texture2D" path="res://assets/ui/pokedex.png" id="5_pokedex"]
+[ext_resource type="Texture2D" path="res://assets/ui/setting.png" id="6_setting"]
+[ext_resource type="Texture2D" path="res://assets/ui/team.png" id="8_team"]
+[ext_resource type="Texture2D" path="res://assets/ui/shop.png" id="11_shop"]
+[ext_resource type="Texture2D" path="res://assets/ui/coin.png" id="12_coin"]
+[ext_resource type="Texture2D" path="res://assets/ui/home.png" id="7_home"]
+[ext_resource type="PackedScene" path="res://scenes/ui/InventoryPanel.tscn" id="13_inventory"]
+
+[node name="Home" type="Control" unique_id=1875335538]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_home")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1698298952]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_bg")
+expand_mode = 1
+stretch_mode = 6
+
+[node name="RoamingMonsters" type="Node2D" parent="." unique_id=1396603673]
+
+[node name="BottomSlotBar" type="Control" parent="." unique_id=588421682]
+anchors_preset = 0
+offset_left = 730.0
+offset_top = 960.0
+offset_right = 1190.0
+offset_bottom = 1074.0
+mouse_filter = 2
+
+[node name="BarBg" type="ColorRect" parent="BottomSlotBar" unique_id=923225779]
+layout_mode = 0
+offset_right = 460.0
+offset_bottom = 114.0
+color = Color(0.04, 0.07, 0.11, 0.88)
+
+[node name="BarAccent" type="ColorRect" parent="BottomSlotBar"]
+layout_mode = 0
+offset_right = 460.0
+offset_bottom = 2.0
+color = Color(0.24, 0.85, 0.82, 0.4)
+
+[node name="TeamLabel" type="Label" parent="BottomSlotBar"]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 36.0
+offset_right = 90.0
+offset_bottom = 76.0
+theme_override_font_sizes/font_size = 14
+theme_override_colors/font_color = Color(0.6, 0.8, 0.9, 0.7)
+text = "Team"
+vertical_alignment = 1
+
+[node name="Slot1_Bg" type="ColorRect" parent="BottomSlotBar" unique_id=2041275545]
+layout_mode = 0
+offset_left = 104.0
+offset_top = 16.0
+offset_right = 188.0
+offset_bottom = 100.0
+color = Color(0.06, 0.12, 0.18, 0.9)
+
+[node name="Slot1_Border" type="ColorRect" parent="BottomSlotBar"]
+layout_mode = 0
+offset_left = 102.0
+offset_top = 14.0
+offset_right = 190.0
+offset_bottom = 102.0
+color = Color(0.24, 0.85, 0.82, 0.35)
+z_index = -1
+
+[node name="TeamSlotOne" type="TextureRect" parent="BottomSlotBar" unique_id=822947719]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 20.0
+offset_right = 184.0
+offset_bottom = 96.0
+mouse_filter = 2
+texture = ExtResource("3_doge")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Slot2_Bg" type="ColorRect" parent="BottomSlotBar" unique_id=1340741834]
+layout_mode = 0
+offset_left = 206.0
+offset_top = 16.0
+offset_right = 290.0
+offset_bottom = 100.0
+color = Color(0.06, 0.12, 0.18, 0.9)
+
+[node name="Slot2_Border" type="ColorRect" parent="BottomSlotBar"]
+layout_mode = 0
+offset_left = 204.0
+offset_top = 14.0
+offset_right = 292.0
+offset_bottom = 102.0
+color = Color(0.24, 0.85, 0.82, 0.35)
+z_index = -1
+
+[node name="TeamSlotTwo" type="TextureRect" parent="BottomSlotBar" unique_id=1241013807]
+layout_mode = 0
+offset_left = 210.0
+offset_top = 20.0
+offset_right = 286.0
+offset_bottom = 96.0
+mouse_filter = 2
+texture = ExtResource("3_doge")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="Slot3_Bg" type="ColorRect" parent="BottomSlotBar" unique_id=55233536]
+layout_mode = 0
+offset_left = 308.0
+offset_top = 16.0
+offset_right = 392.0
+offset_bottom = 100.0
+color = Color(0.06, 0.12, 0.18, 0.9)
+
+[node name="Slot3_Border" type="ColorRect" parent="BottomSlotBar"]
+layout_mode = 0
+offset_left = 306.0
+offset_top = 14.0
+offset_right = 394.0
+offset_bottom = 102.0
+color = Color(0.24, 0.85, 0.82, 0.35)
+z_index = -1
+
+[node name="TeamSlotThree" type="TextureRect" parent="BottomSlotBar" unique_id=172781450]
+layout_mode = 0
+offset_left = 312.0
+offset_top = 20.0
+offset_right = 388.0
+offset_bottom = 96.0
+mouse_filter = 2
+texture = ExtResource("3_doge")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="InventoryPanel" parent="." instance=ExtResource("13_inventory")]
+
+[node name="TopBar" type="Control" parent="." unique_id=1609621714]
+anchors_preset = 0
+offset_right = 1920.0
+offset_bottom = 80.0
+mouse_filter = 2
+
+[node name="BarBg" type="ColorRect" parent="TopBar" unique_id=999999]
+layout_mode = 1
+mouse_filter = 2
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.04, 0.07, 0.11, 0.92)
+
+[node name="BarAccent" type="ColorRect" parent="TopBar"]
+layout_mode = 0
+offset_top = 78.0
+offset_right = 1920.0
+offset_bottom = 80.0
+color = Color(0.20, 0.52, 0.68, 0.5)
+
+[node name="HomeButton" type="Button" parent="TopBar" unique_id=111111111]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 12.0
+offset_right = 100.0
+offset_bottom = 56.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 16
+text = "Home"
+flat = true
+
+[node name="MapButton" type="Button" parent="TopBar" unique_id=130644974]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 12.0
+offset_right = 192.0
+offset_bottom = 56.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 16
+text = "Map"
+flat = true
+
+[node name="PokedexButton" type="Button" parent="TopBar" unique_id=1565489873]
+layout_mode = 0
+offset_left = 200.0
+offset_top = 12.0
+offset_right = 310.0
+offset_bottom = 56.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 16
+text = "Mogadex"
+flat = true
+
+[node name="TeamButton" type="Button" parent="TopBar" unique_id=1431704184]
+visible = false
+layout_mode = 0
+offset_left = 318.0
+offset_top = 12.0
+offset_right = 410.0
+offset_bottom = 56.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 16
+text = "Team"
+flat = true
+
+[node name="InventoryButton" type="Button" parent="TopBar"]
+layout_mode = 0
+offset_left = 318.0
+offset_top = 12.0
+offset_right = 450.0
+offset_bottom = 56.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 16
+text = "Inventory"
+flat = true
+
+[node name="ShopButton" type="Button" parent="TopBar" unique_id=1775213329]
+layout_mode = 0
+offset_left = 458.0
+offset_top = 12.0
+offset_right = 544.0
+offset_bottom = 56.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 16
+text = "Shop"
+flat = true
+
+[node name="SettingsButton" type="Button" parent="TopBar" unique_id=238108566]
+layout_mode = 0
+offset_left = 552.0
+offset_top = 12.0
+offset_right = 656.0
+offset_bottom = 56.0
+focus_mode = 0
+theme_override_font_sizes/font_size = 16
+text = "Settings"
+flat = true
+
+[node name="GoldDisplay" type="Control" parent="TopBar" unique_id=394250131]
+anchors_preset = 0
+offset_left = 1560.0
+offset_top = 10.0
+offset_right = 1904.0
+offset_bottom = 58.0
+
+[node name="Label" type="Label" parent="TopBar/GoldDisplay" unique_id=1501583828]
+layout_mode = 0
+offset_right = 344.0
+offset_bottom = 48.0
+theme_override_font_sizes/font_size = 20
+theme_override_colors/font_color = Color(1.0, 0.85, 0.3, 1)
+text = "0"
+horizontal_alignment = 2
+vertical_alignment = 1

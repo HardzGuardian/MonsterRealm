@@ -1,0 +1,85 @@
+{
+  "star_seed": {
+    "name": "Star Seed",
+    "description": "Capture a wild monster in battle",
+    "icon": "res://assets/item/Star seed.png",
+    "shop_price": 20,
+    "sellable": false,
+    "usable_in_battle": true,
+    "use_effect": "capture",
+    "ui_color": [0.06, 0.14, 0.28]
+  },
+  "40hp_potion": {
+    "name": "40HP Potion",
+    "description": "Restore 40 HP to active monster",
+    "icon": "res://assets/item/40HP Potion.png",
+    "shop_price": 10,
+    "sellable": true,
+    "usable_in_battle": true,
+    "use_effect": "heal",
+    "use_value": 40,
+    "ui_color": [0.07, 0.22, 0.12]
+  },
+  "250hp_potion": {
+    "name": "250HP Potion",
+    "description": "Restore 250 HP to active monster",
+    "icon": "res://assets/item/250HP Potion.png",
+    "shop_price": 50,
+    "sellable": true,
+    "usable_in_battle": true,
+    "use_effect": "heal",
+    "use_value": 250,
+    "ui_color": [0.14, 0.08, 0.26]
+  },
+  "revive_potion": {
+    "name": "Revive Potion",
+    "description": "Revive a fainted monster to half HP",
+    "icon": "res://assets/item/Revive potion.png",
+    "shop_price": 80,
+    "sellable": true,
+    "usable_in_battle": true,
+    "use_effect": "revive",
+    "ui_color": [0.24, 0.08, 0.14]
+  },
+  "exp_booster": {
+    "name": "Exp Booster",
+    "description": "Boost XP gain for this battle",
+    "icon": "res://assets/item/Exp Booster.png",
+    "shop_price": 100,
+    "sellable": false,
+    "usable_in_battle": true,
+    "use_effect": "exp_boost",
+    "use_value": 2,
+    "ui_color": [0.22, 0.12, 0.04]
+  },
+  "evolve_potion": {
+    "name": "Evolve Potion",
+    "description": "Required ingredient for monster evolution",
+    "icon": "res://assets/item/Evolution Potion.png",
+    "shop_price": 200,
+    "sellable": false,
+    "usable_in_battle": false,
+    "use_effect": "evolve",
+    "ui_color": [0.18, 0.08, 0.22]
+  },
+  "name_tag": {
+    "name": "Name Tag",
+    "description": "Rename one of your monsters",
+    "icon": "res://assets/item/Name tag.png",
+    "shop_price": 150,
+    "sellable": false,
+    "usable_in_battle": false,
+    "use_effect": "rename",
+    "ui_color": [0.08, 0.16, 0.22]
+  },
+  "pp_restore": {
+    "name": "Coca-Cola",
+    "description": "Restores all PP for active monster",
+    "icon": "res://assets/item/Coca-Cola.png",
+    "shop_price": 120,
+    "sellable": false,
+    "usable_in_battle": true,
+    "use_effect": "pp_restore",
+    "ui_color": [0.22, 0.04, 0.04]
+  }
+}

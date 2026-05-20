@@ -1,0 +1,1421 @@
+{
+	"level_1": {
+		"background": "res://assets/map/West Summer Road.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_2": [
+				104,
+				21
+			]
+		},
+		"enemy_level": 1,
+		"enemy_team": [
+			"beefee",
+			"chuuchilla",
+			"dinho",
+			"lambo",
+			"prototype_zero",
+			"wasabee"
+		],
+		"name": "West Summer Road",
+		"order": 1,
+		"position": [
+			402,
+			187
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_2"
+		]
+	},
+	"level_10": {
+		"background": "res://assets/map/Mourningwood Pass.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_11": [
+				104,
+				42
+			]
+		},
+		"enemy_level": 10,
+		"enemy_team": [
+			"ac",
+			"colibri",
+			"munninn",
+			"owlreed",
+			"peascorp",
+			"trolo"
+		],
+		"name": "Mourningwood Pass",
+		"order": 10,
+		"position": [
+			562,
+			578
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_11"
+		]
+	},
+	"level_11": {
+		"background": "res://assets/map/Oakford Shade.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_12": [
+				-18,
+				-13
+			],
+			"level_13": [
+				96,
+				-22
+			]
+		},
+		"enemy_level": 11,
+		"enemy_team": [
+			"ac",
+			"munninn",
+			"pudgy",
+			"trolo"
+		],
+		"name": "Oakford Shade",
+		"order": 11,
+		"position": [
+			746,
+			557
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_12",
+			"level_13"
+		]
+	},
+	"level_12": {
+		"background": "res://assets/map/Darkwood Vault.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 12,
+		"enemy_team": [
+			"shadowstar",
+			"munninn",
+			"faust",
+			"teef"
+		],
+		"name": "Darkwood Vault",
+		"order": 12,
+		"position": [
+			680,
+			472
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_13": {
+		"background": "res://assets/map/Spiral Cave.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_14": [
+				93,
+				45
+			],
+			"level_25": [
+				184,
+				83
+			]
+		},
+		"enemy_level": 13,
+		"enemy_team": [
+			"nar",
+			"pwee",
+			"tenpac",
+			"woolf"
+		],
+		"name": "Spiral Cave",
+		"order": 13,
+		"position": [
+			897,
+			519
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_14",
+			"level_25"
+		]
+	},
+	"level_14": {
+		"background": "res://assets/map/Sandswirl Beach.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_15": [
+				13,
+				83
+			],
+			"level_18": [
+				94,
+				0
+			]
+		},
+		"enemy_level": 14,
+		"enemy_team": [
+			"anee",
+			"crabao",
+			"leviathan",
+			"tenpac",
+			"weeplet",
+			"yara"
+		],
+		"name": "Sandswirl Beach",
+		"order": 14,
+		"position": [
+			1076,
+			593
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_15",
+			"level_18"
+		]
+	},
+	"level_15": {
+		"background": "res://assets/map/Mangrove Shallows.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_16": [
+				-51,
+				59
+			]
+		},
+		"enemy_level": 15,
+		"enemy_team": [
+			"crabao",
+			"leviathan",
+			"yara"
+		],
+		"name": "Mangrove Shallows",
+		"order": 15,
+		"position": [
+			1028,
+			669
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_16"
+		]
+	},
+	"level_16": {
+		"background": "res://assets/map/Shellstone Beachfront.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_17": [
+				-60,
+				48
+			]
+		},
+		"enemy_level": 16,
+		"enemy_team": [
+			"anee",
+			"crabao",
+			"weeplet"
+		],
+		"name": "Shellstone Beachfront",
+		"order": 16,
+		"position": [
+			877,
+			721
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_17"
+		]
+	},
+	"level_17": {
+		"background": "res://assets/map/Shellstone Lighthouse.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 17,
+		"enemy_team": [
+			"anee",
+			"crabao",
+			"weeplet",
+			"yara"
+		],
+		"name": "Shellstone Lighthouse",
+		"order": 17,
+		"position": [
+			711,
+			740
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_18": {
+		"background": "res://assets/map/Bushfall.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_19": [
+				38,
+				73
+			],
+			"level_21": [
+				109,
+				24
+			]
+		},
+		"enemy_level": 18,
+		"enemy_team": [
+			"anee",
+			"boogaleef",
+			"crabao",
+			"eefree",
+			"weeplet"
+		],
+		"name": "Bushfall",
+		"order": 18,
+		"position": [
+			1234,
+			553
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_19",
+			"level_21"
+		]
+	},
+	"level_19": {
+		"background": "res://assets/map/Swirly Dock.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_20": [
+				114,
+				56
+			]
+		},
+		"enemy_level": 19,
+		"enemy_team": [
+			"beaster",
+			"boogaleef",
+			"crabao",
+			"leviathan"
+		],
+		"name": "Swirly Dock",
+		"order": 19,
+		"position": [
+			1296,
+			665
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_20"
+		]
+	},
+	"level_2": {
+		"background": "res://assets/map/East Summer Road.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_3": [
+				-42,
+				68
+			]
+		},
+		"enemy_level": 2,
+		"enemy_team": [
+			"alyx",
+			"beefee",
+			"chuuchilla",
+			"dinho",
+			"lambo",
+			"wasabee"
+		],
+		"name": "East Summer Road",
+		"order": 2,
+		"position": [
+			522,
+			210
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_3"
+		]
+	},
+	"level_20": {
+		"background": "res://assets/map/Swirly Pier.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 20,
+		"enemy_team": [
+			"crabao",
+			"munyu",
+			"jor",
+			"ella"
+		],
+		"name": "Swirly Pier",
+		"order": 20,
+		"position": [
+			1455,
+			728
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_21": {
+		"background": "res://assets/map/Sandswirl Shrubwalk.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_22": [
+				145,
+				18
+			]
+		},
+		"enemy_level": 21,
+		"enemy_team": [
+			"anee",
+			"boogaleef",
+			"twister",
+			"weeplet"
+		],
+		"name": "Sandswirl Shrubwalk",
+		"order": 21,
+		"position": [
+			1455,
+			549
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_22"
+		]
+	},
+	"level_22": {
+		"background": "res://assets/map/Sandswirl Point.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_23": [
+				122,
+				90
+			]
+		},
+		"enemy_level": 22,
+		"enemy_team": [
+			"boogaleef",
+			"eefree",
+			"twister",
+			"yara"
+		],
+		"name": "Sandswirl Point",
+		"order": 22,
+		"position": [
+			1619,
+			571
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_23"
+		]
+	},
+	"level_23": {
+		"background": "res://assets/map/Sandswirl Peninsula.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_24": [
+				-74,
+				65
+			]
+		},
+		"enemy_level": 23,
+		"enemy_team": [
+			"boogaleef",
+			"twister",
+			"weeplet",
+			"anee"
+		],
+		"name": "Sandswirl Peninsula",
+		"order": 23,
+		"position": [
+			1625,
+			660
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_24"
+		]
+	},
+	"level_24": {
+		"background": "res://assets/map/Sandswirl Tidal Pool.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 24,
+		"enemy_team": [
+			"twister",
+			"munyu",
+			"ella",
+			"turtlenie"
+		],
+		"name": "Sandswirl Tidal Pool",
+		"order": 24,
+		"position": [
+			1540,
+			624
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_25": {
+		"background": "res://assets/map/Spiral Path.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_26": [
+				89,
+				-5
+			]
+		},
+		"enemy_level": 25,
+		"enemy_team": [
+			"meh",
+			"messi",
+			"munyu",
+			"pudgy",
+			"staryak",
+			"woolf"
+		],
+		"name": "Spiral Path",
+		"order": 25,
+		"position": [
+			1153,
+			480
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_26"
+		]
+	},
+	"level_26": {
+		"background": "res://assets/map/Spiral Road.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_27": [
+				-64,
+				9
+			]
+		},
+		"enemy_level": 26,
+		"enemy_team": [
+			"leif",
+			"meh",
+			"messi",
+			"munyu",
+			"woolf"
+		],
+		"name": "Spiral Road",
+		"order": 26,
+		"position": [
+			1139,
+			407
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_27"
+		]
+	},
+	"level_27": {
+		"background": "res://assets/map/Northside.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_28": [
+				-62,
+				21
+			]
+		},
+		"enemy_level": 27,
+		"enemy_team": [
+			"leif",
+			"meh",
+			"messi",
+			"mimple",
+			"munyu",
+			"staryak",
+			"woolf"
+		],
+		"name": "Northside",
+		"order": 27,
+		"position": [
+			966,
+			362
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_28"
+		]
+	},
+	"level_28": {
+		"background": "res://assets/map/Heavenly Greens Gate.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_29": [
+				-61,
+				25
+			],
+			"level_34": [
+				96,
+				0
+			]
+		},
+		"enemy_level": 28,
+		"enemy_team": [
+			"dauthus",
+			"meh",
+			"woolf"
+		],
+		"name": "Heavenly Greens Gate",
+		"order": 28,
+		"position": [
+			825,
+			321
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_29",
+			"level_34"
+		]
+	},
+	"level_29": {
+		"background": "res://assets/map/Heavenly Greens Steps.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_30": [
+				50,
+				-30
+			]
+		},
+		"enemy_level": 29,
+		"enemy_team": [
+			"hakka",
+			"mimple",
+			"munyu",
+			"vuvu",
+			"zomoo"
+		],
+		"name": "Heavenly Greens Steps",
+		"order": 29,
+		"position": [
+			678,
+			305
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_30"
+		]
+	},
+	"level_3": {
+		"background": "res://assets/map/Warmwood Trail.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_4": [
+				-72,
+				36
+			]
+		},
+		"enemy_level": 3,
+		"enemy_team": [
+			"beefee",
+			"chuuchilla",
+			"dinho",
+			"lambo",
+			"wasabee"
+		],
+		"name": "Warmwood Trail",
+		"order": 3,
+		"position": [
+			390,
+			276
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_4"
+		]
+	},
+	"level_30": {
+		"background": "res://assets/map/Heavenly Greens Cemetery.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_31": [
+				50,
+				-30
+			]
+		},
+		"enemy_level": 30,
+		"enemy_team": [
+			"beefee",
+			"hakka",
+			"vuvu",
+			"winja",
+			"yoake",
+			"zomoo"
+		],
+		"name": "Heavenly Greens Cemetery",
+		"order": 30,
+		"position": [
+			643,
+			226
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_31"
+		]
+	},
+	"level_31": {
+		"background": "res://assets/map/The Rue Morgue.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_32": [
+				90,
+				9
+			],
+			"level_33": [
+				-49,
+				16
+			]
+		},
+		"enemy_level": 31,
+		"enemy_team": [
+			"hakka",
+			"trolo",
+			"vuvu",
+			"winja",
+			"yoake",
+			"zomoo"
+		],
+		"name": "The Rue Morgue",
+		"order": 31,
+		"position": [
+			705,
+			158
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_32",
+			"level_33"
+		]
+	},
+	"level_32": {
+		"background": "res://assets/map/Cydonia Castle.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 32,
+		"enemy_team": [
+			"spike",
+			"vuvu",
+			"yoake",
+			"yugure",
+			"zomoo"
+		],
+		"name": "Cydonia Castle",
+		"order": 32,
+		"position": [
+			848,
+			100
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_33": {
+		"background": "res://assets/map/Thornwood.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 33,
+		"enemy_team": [
+			"spwinder",
+			"thorn",
+			"wasabee",
+			"peascorp"
+		],
+		"name": "Thornwood",
+		"order": 33,
+		"position": [
+			604,
+			85
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_34": {
+		"background": "res://assets/map/Trollworthy Bridge.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_35": [
+				160,
+				21
+			]
+		},
+		"enemy_level": 34,
+		"enemy_team": [
+			"faust",
+			"metalear",
+			"mimple",
+			"trolo"
+		],
+		"name": "Trollworthy Bridge",
+		"order": 34,
+		"position": [
+			1002,
+			257
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_35"
+		]
+	},
+	"level_35": {
+		"background": "res://assets/map/Windhym Roadway.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_36": [
+				8,
+				-21
+			],
+			"level_39": [
+				127,
+				109
+			]
+		},
+		"enemy_level": 35,
+		"enemy_team": [
+			"barnetta",
+			"melodee",
+			"siri"
+		],
+		"name": "Windhym Roadway",
+		"order": 35,
+		"position": [
+			1189,
+			286
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_36",
+			"level_39"
+		]
+	},
+	"level_36": {
+		"background": "res://assets/map/Windhym Flower Path.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_37": [
+				73,
+				-1
+			]
+		},
+		"enemy_level": 36,
+		"enemy_team": [
+			"barnetta",
+			"nomy",
+			"siri"
+		],
+		"name": "Windhym Flower Path",
+		"order": 36,
+		"position": [
+			1131,
+			197
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_37"
+		]
+	},
+	"level_37": {
+		"background": "res://assets/map/Windhym Gardens.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_38": [
+				50,
+				-30
+			]
+		},
+		"enemy_level": 37,
+		"enemy_team": [
+			"melodee",
+			"nomy"
+		],
+		"name": "Windhym Gardens",
+		"order": 37,
+		"position": [
+			1222,
+			124
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_38"
+		]
+	},
+	"level_38": {
+		"background": "res://assets/map/Windhym Flowerpit.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 38,
+		"enemy_team": [
+			"barnetta",
+			"booly"
+		],
+		"name": "Windhym Flower Pond",
+		"order": 38,
+		"position": [
+			1102,
+			82
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_39": {
+		"background": "res://assets/map/Gates of Windhym.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_40": [
+				50,
+				-30
+			]
+		},
+		"enemy_level": 39,
+		"enemy_team": [
+			"barnetta",
+			"booly",
+			"siri",
+			"starpops",
+			"turtlenie"
+		],
+		"name": "Gates of Windhym",
+		"order": 39,
+		"position": [
+			1386,
+			328
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_40"
+		]
+	},
+	"level_4": {
+		"background": "res://assets/map/Summer Field.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_5": [
+				117,
+				69
+			]
+		},
+		"enemy_level": 4,
+		"enemy_team": [
+			"beefee",
+			"chuuchilla",
+			"dinho",
+			"lambo",
+			"wasabee"
+		],
+		"name": "Summer Field",
+		"order": 4,
+		"position": [
+			205,
+			300
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_5"
+		]
+	},
+	"level_40": {
+		"background": "res://assets/map/Windhym Town Square.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_41": [
+				-40,
+				17
+			],
+			"level_42": [
+				92,
+				71
+			]
+		},
+		"enemy_level": 40,
+		"enemy_team": [
+			"nomy",
+			"starpops",
+			"turtlenie"
+		],
+		"name": "Windhym Town Square",
+		"order": 40,
+		"position": [
+			1475,
+			225
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_41",
+			"level_42"
+		]
+	},
+	"level_41": {
+		"background": "res://assets/map/Gertrudes House.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 41,
+		"enemy_team": [
+			"cathulu",
+			"dauthus",
+			"beaster",
+			"shadowstrike"
+		],
+		"name": "Gertrudes House",
+		"order": 41,
+		"position": [
+			1348,
+			187
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_42": {
+		"background": "res://assets/map/Windhym Southshire.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_43": [
+				161,
+				72
+			]
+		},
+		"enemy_level": 42,
+		"enemy_team": [
+			"barnetta",
+			"beefee",
+			"peafyx",
+			"nomy",
+			"siri",
+			"starpops"
+		],
+		"name": "Windhym Southshire",
+		"order": 42,
+		"position": [
+			1666,
+			323
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_43"
+		]
+	},
+	"level_43": {
+		"background": "res://assets/map/Southshire Bridge.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_44": [
+				24,
+				142
+			]
+		},
+		"enemy_level": 43,
+		"enemy_team": [
+			"jor",
+			"paul",
+			"willo",
+			"woolf"
+		],
+		"name": "Southshire Bridge",
+		"order": 43,
+		"position": [
+			1807,
+			477
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_44"
+		]
+	},
+	"level_44": {
+		"background": "res://assets/map/MadBeetch River.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_45": [
+				92,
+				157
+			]
+		},
+		"enemy_level": 44,
+		"enemy_team": [
+			"cathulu",
+			"electrotter",
+			"willo"
+		],
+		"name": "MadBeetch River",
+		"order": 44,
+		"position": [
+			1756,
+			672
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_45"
+		]
+	},
+	"level_45": {
+		"background": "res://assets/map/MadBeetch Rapids.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_46": [
+				-60,
+				130
+			]
+		},
+		"enemy_level": 45,
+		"enemy_team": [
+			"cathulu",
+			"electrotter",
+			"friedrich",
+			"jor",
+			"leviathan",
+			"teef"
+		],
+		"name": "MadBeetch Rapids",
+		"order": 45,
+		"position": [
+			1739,
+			821
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_46"
+		]
+	},
+	"level_46": {
+		"background": "res://assets/map/Lombards Rafting Inc.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 46,
+		"enemy_team": [
+			"leviathan",
+			"jor",
+			"dauthus",
+			"prototype_zero"
+		],
+		"name": "Lombards Rafting Inc",
+		"order": 46,
+		"position": [
+			1619,
+			986
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_5": {
+		"background": "res://assets/map/Shadowmire Edge.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_6": [
+				-23,
+				79
+			]
+		},
+		"enemy_level": 5,
+		"enemy_team": [
+			"owlreed",
+			"alyx",
+			"pudgy",
+			"colibri"
+		],
+		"name": "Shadowmire Edge",
+		"order": 5,
+		"position": [
+			305,
+			378
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_6"
+		]
+	},
+	"level_6": {
+		"background": "res://assets/map/Miasma Depths.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_7": [
+				-69,
+				116
+			],
+			"level_8": [
+				114,
+				66
+			]
+		},
+		"enemy_level": 6,
+		"enemy_team": [
+			"ac",
+			"alyx",
+			"colibri",
+			"owlreed",
+			"peascorp",
+			"trolo",
+			"turtlenie"
+		],
+		"name": "Miasma Depths",
+		"order": 6,
+		"position": [
+			222,
+			480
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_7",
+			"level_8"
+		]
+	},
+	"level_7": {
+		"background": "res://assets/map/Mega Hole.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"enemy_level": 7,
+		"enemy_team": [
+			"clovey",
+			"nar",
+			"pwee",
+			"smok",
+			"tenpac",
+			"yara"
+		],
+		"name": "Mega Hole",
+		"order": 7,
+		"position": [
+			155,
+			682
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": []
+	},
+	"level_8": {
+		"background": "res://assets/map/Shadowmire Bulwark.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_9": [
+				69,
+				-1
+			]
+		},
+		"enemy_level": 8,
+		"enemy_team": [
+			"alyx",
+			"colibri",
+			"munninn",
+			"owlreed",
+			"peafyx",
+			"peascorp",
+			"pudgy",
+			"trolo",
+			"turtlenie"
+		],
+		"name": "Shadowmire Bulwark",
+		"order": 8,
+		"position": [
+			394,
+			533
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_9"
+		]
+	},
+	"level_9": {
+		"background": "res://assets/map/Darkwood.png",
+		"control_point": [
+			50,
+			-30
+		],
+		"control_points": {
+			"level_10": [
+				54,
+				93
+			]
+		},
+		"enemy_level": 9,
+		"enemy_team": [
+			"colibri",
+			"owlreed",
+			"peafyx",
+			"peascorp",
+			"trolo"
+		],
+		"name": "Darkwood",
+		"order": 9,
+		"position": [
+			492,
+			460
+		],
+		"reward_drops": {},
+		"reward_gold": 10,
+		"unlock_after_win": [
+			"level_10"
+		]
+	}
+}

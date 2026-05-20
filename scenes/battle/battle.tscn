@@ -1,0 +1,410 @@
+[gd_scene format=3 uid="uid://684mohcastjx"]
+
+[ext_resource type="PackedScene" uid="uid://td83i1ld6xl1" path="res://scenes/core/Monster.tscn" id="1_7gynk"]
+[ext_resource type="Script" uid="uid://6v31ehetfobb" path="res://scripts/battle/Battle.gd" id="1_t72gb"]
+[ext_resource type="Texture2D" uid="uid://bhqvdx3owptf8" path="res://assets/monsters/Alyx.png" id="3_doge"]
+[ext_resource type="Texture2D" uid="uid://drhyxkc8fe656" path="res://assets/map/map.png" id="4_battle_map"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_move_normal"]
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.11, 0.2, 0.29, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.18, 0.34, 0.47, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_move_pressed"]
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.08, 0.15, 0.22, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.14, 0.28, 0.38, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_move_hover"]
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.16, 0.3, 0.42, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.24, 0.5, 0.65, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_move_disabled"]
+bg_color = Color(0.06, 0.09, 0.13, 0.8)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.12, 0.18, 0.24, 0.5)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_action_normal"]
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.14, 0.24, 0.34, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.22, 0.4, 0.55, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_action_pressed"]
+bg_color = Color(0.1, 0.18, 0.26, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.16, 0.3, 0.42, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_action_hover"]
+content_margin_left = 8.0
+content_margin_top = 4.0
+content_margin_right = 8.0
+content_margin_bottom = 4.0
+bg_color = Color(0.18, 0.34, 0.48, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.3, 0.56, 0.72, 1)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_action_disabled"]
+bg_color = Color(0.07, 0.1, 0.14, 0.8)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.12, 0.18, 0.24, 0.5)
+corner_radius_top_left = 12
+corner_radius_top_right = 12
+corner_radius_bottom_right = 12
+corner_radius_bottom_left = 12
+
+[node name="Battle" type="Control" unique_id=1750011002]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_t72gb")
+
+[node name="Background" type="TextureRect" parent="." unique_id=1845595766]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("4_battle_map")
+expand_mode = 1
+
+[node name="Battlefield" type="Node2D" parent="." unique_id=2022649736]
+
+[node name="PlayerSide" type="Node2D" parent="Battlefield" unique_id=397408239]
+position = Vector2(480, 580)
+
+[node name="PlayerMonster" parent="Battlefield/PlayerSide" unique_id=616557309 instance=ExtResource("1_7gynk")]
+
+[node name="EnemySide" type="Node2D" parent="Battlefield" unique_id=663589240]
+position = Vector2(1440, 580)
+
+[node name="EnemyMonster" parent="Battlefield/EnemySide" unique_id=362563632 instance=ExtResource("1_7gynk")]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=335265075]
+
+[node name="BottomBar" type="ColorRect" parent="UI" unique_id=176650740]
+offset_top = 808.0
+offset_right = 1920.0
+offset_bottom = 1080.0
+mouse_filter = 2
+color = Color(0.047, 0.075, 0.11, 0.95)
+
+[node name="BottomAccent" type="ColorRect" parent="UI" unique_id=1503479154]
+offset_top = 808.0
+offset_right = 1920.0
+offset_bottom = 811.0
+mouse_filter = 2
+color = Color(0.2, 0.52, 0.68, 0.6)
+
+[node name="PartyPanel" type="ColorRect" parent="UI" unique_id=1449486781]
+offset_left = 20.0
+offset_top = 820.0
+offset_right = 268.0
+offset_bottom = 1064.0
+mouse_filter = 2
+color = Color(0.055, 0.094, 0.135, 1)
+
+[node name="PartyPanelBorder" type="ColorRect" parent="UI/PartyPanel" unique_id=961860519]
+layout_mode = 0
+offset_right = 248.0
+offset_bottom = 2.0
+color = Color(0.18, 0.34, 0.47, 0.4)
+
+[node name="Portrait" type="TextureRect" parent="UI/PartyPanel" unique_id=1103962610]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 12.0
+offset_right = 120.0
+offset_bottom = 120.0
+mouse_filter = 2
+texture = ExtResource("3_doge")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PartyCount" type="Label" parent="UI/PartyPanel" unique_id=2091946963]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 14.0
+offset_right = 236.0
+offset_bottom = 42.0
+theme_override_font_sizes/font_size = 18
+text = "1/3"
+
+[node name="TeamLabel" type="Label" parent="UI/PartyPanel" unique_id=883530823]
+layout_mode = 0
+offset_left = 128.0
+offset_top = 44.0
+offset_right = 236.0
+offset_bottom = 66.0
+theme_override_colors/font_color = Color(0.5, 0.7, 0.8, 0.7)
+theme_override_font_sizes/font_size = 13
+text = "TEAM"
+
+[node name="MonsterSlotOne" type="ColorRect" parent="UI/PartyPanel" unique_id=185064954]
+layout_mode = 0
+offset_left = 12.0
+offset_top = 134.0
+offset_right = 82.0
+offset_bottom = 204.0
+mouse_filter = 2
+color = Color(0.04, 0.07, 0.1, 0.8)
+
+[node name="MonsterSlotTwo" type="ColorRect" parent="UI/PartyPanel" unique_id=835015907]
+layout_mode = 0
+offset_left = 90.0
+offset_top = 134.0
+offset_right = 160.0
+offset_bottom = 204.0
+mouse_filter = 2
+color = Color(0.04, 0.07, 0.1, 0.8)
+
+[node name="MonsterSlotThree" type="ColorRect" parent="UI/PartyPanel" unique_id=144116220]
+layout_mode = 0
+offset_left = 168.0
+offset_top = 134.0
+offset_right = 238.0
+offset_bottom = 204.0
+mouse_filter = 2
+color = Color(0.04, 0.07, 0.1, 0.8)
+
+[node name="MovesPanel" type="ColorRect" parent="UI" unique_id=1422708581]
+offset_left = 282.0
+offset_top = 820.0
+offset_right = 1340.0
+offset_bottom = 1064.0
+mouse_filter = 2
+color = Color(0.063, 0.106, 0.149, 1)
+
+[node name="MovesPanelBorder" type="ColorRect" parent="UI/MovesPanel" unique_id=285105298]
+layout_mode = 0
+offset_right = 1058.0
+offset_bottom = 2.0
+color = Color(0.18, 0.34, 0.47, 0.4)
+
+[node name="MessageLabel" type="Label" parent="UI/MovesPanel" unique_id=1877215026]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 12.0
+offset_right = 1030.0
+offset_bottom = 52.0
+theme_override_font_sizes/font_size = 22
+text = "Choose an action."
+vertical_alignment = 1
+
+[node name="BasicAttackButton" type="Button" parent="UI/MovesPanel" unique_id=831604198]
+visible = false
+layout_mode = 0
+offset_left = 24.0
+offset_top = 62.0
+offset_right = 500.0
+offset_bottom = 118.0
+theme_override_font_sizes/font_size = 17
+theme_override_styles/normal = SubResource("StyleBoxFlat_move_normal")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_move_pressed")
+theme_override_styles/hover = SubResource("StyleBoxFlat_move_hover")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_move_disabled")
+text = "Basic Attack"
+
+[node name="SpecialAttackButton" type="Button" parent="UI/MovesPanel" unique_id=49713027]
+visible = false
+layout_mode = 0
+offset_left = 516.0
+offset_top = 62.0
+offset_right = 1030.0
+offset_bottom = 118.0
+theme_override_font_sizes/font_size = 17
+theme_override_styles/normal = SubResource("StyleBoxFlat_move_normal")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_move_pressed")
+theme_override_styles/hover = SubResource("StyleBoxFlat_move_hover")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_move_disabled")
+text = "Special Attack"
+
+[node name="BuffButton" type="Button" parent="UI/MovesPanel" unique_id=1716603101]
+visible = false
+layout_mode = 0
+offset_left = 24.0
+offset_top = 130.0
+offset_right = 500.0
+offset_bottom = 186.0
+theme_override_font_sizes/font_size = 17
+theme_override_styles/normal = SubResource("StyleBoxFlat_move_normal")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_move_pressed")
+theme_override_styles/hover = SubResource("StyleBoxFlat_move_hover")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_move_disabled")
+text = "Buff"
+
+[node name="DebuffButton" type="Button" parent="UI/MovesPanel" unique_id=1609590973]
+visible = false
+layout_mode = 0
+offset_left = 516.0
+offset_top = 130.0
+offset_right = 818.0
+offset_bottom = 186.0
+theme_override_font_sizes/font_size = 17
+theme_override_styles/normal = SubResource("StyleBoxFlat_move_normal")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_move_pressed")
+theme_override_styles/hover = SubResource("StyleBoxFlat_move_hover")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_move_disabled")
+text = "Debuff"
+
+[node name="BackButton" type="Button" parent="UI/MovesPanel" unique_id=156428482]
+visible = false
+layout_mode = 0
+offset_left = 834.0
+offset_top = 130.0
+offset_right = 1030.0
+offset_bottom = 186.0
+theme_override_font_sizes/font_size = 17
+theme_override_styles/normal = SubResource("StyleBoxFlat_move_normal")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_move_pressed")
+theme_override_styles/hover = SubResource("StyleBoxFlat_move_hover")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_move_disabled")
+text = "← Back"
+
+[node name="ActionPanel" type="ColorRect" parent="UI" unique_id=849280973]
+offset_left = 1354.0
+offset_top = 820.0
+offset_right = 1900.0
+offset_bottom = 1064.0
+mouse_filter = 2
+color = Color(0.051, 0.086, 0.122, 1)
+
+[node name="ActionPanelBorder" type="ColorRect" parent="UI/ActionPanel" unique_id=1150855616]
+layout_mode = 0
+offset_right = 546.0
+offset_bottom = 2.0
+color = Color(0.18, 0.34, 0.47, 0.4)
+
+[node name="AttackButton" type="Button" parent="UI/ActionPanel" unique_id=1512071883]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 16.0
+offset_right = 264.0
+offset_bottom = 112.0
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_action_normal")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_action_pressed")
+theme_override_styles/hover = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_action_disabled")
+text = "⚔ Skills"
+
+[node name="ItemButton" type="Button" parent="UI/ActionPanel" unique_id=1938745681]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 16.0
+offset_right = 528.0
+offset_bottom = 112.0
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_action_normal")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_action_pressed")
+theme_override_styles/hover = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_action_disabled")
+text = "🎒 Items"
+
+[node name="SwapButton" type="Button" parent="UI/ActionPanel" unique_id=1735524303]
+layout_mode = 0
+offset_left = 16.0
+offset_top = 128.0
+offset_right = 264.0
+offset_bottom = 224.0
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_action_normal")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_action_pressed")
+theme_override_styles/hover = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_action_disabled")
+text = "🔄 Team"
+
+[node name="RunButton" type="Button" parent="UI/ActionPanel" unique_id=2078741647]
+layout_mode = 0
+offset_left = 280.0
+offset_top = 128.0
+offset_right = 528.0
+offset_bottom = 224.0
+theme_override_font_sizes/font_size = 20
+theme_override_styles/normal = SubResource("StyleBoxFlat_action_normal")
+theme_override_styles/pressed = SubResource("StyleBoxFlat_action_pressed")
+theme_override_styles/hover = SubResource("StyleBoxFlat_action_hover")
+theme_override_styles/disabled = SubResource("StyleBoxFlat_action_disabled")
+text = "🏃 Run"
+
+[node name="GroundMarker" type="Marker2D" parent="." unique_id=754984017]
+position = Vector2(1164, 662)
+gizmo_extents = 0.0
+
+[node name="StartMarker" type="Marker2D" parent="." unique_id=1732888699]
+position = Vector2(0, 129)
+
+[editable path="Battlefield/PlayerSide/PlayerMonster"]
+[editable path="Battlefield/EnemySide/EnemyMonster"]

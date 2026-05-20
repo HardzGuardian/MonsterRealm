@@ -1,0 +1,73 @@
+{
+  "battle": {
+    "xp_per_battle": 50,
+    "xp_base": 30,
+    "xp_per_enemy_level": 8,
+    "exp_boost_multiplier": 2.0,
+    "crit_chance": 0.10,
+    "crit_multiplier": 1.5,
+    "capture_hp_bonus": 0.10,
+    "capture_min": 0.05,
+    "capture_max": 0.95,
+    "capture_low_hp_threshold": 0.65
+  },
+  "progression": {
+    "max_level": 50,
+    "xp_per_level_multiplier": 100,
+    "team_max_size": 3,
+    "default_stat_growth": { "hp": 8, "attack": 2, "defense": 1, "speed": 1 }
+  },
+  "rarities": {
+    "common":    { "capture_rate": 1.0,  "color": [0.65, 0.70, 0.75], "encounter_weight": 60 },
+    "rare":      { "capture_rate": 0.8,  "color": [0.30, 0.65, 1.00], "encounter_weight": 25 },
+    "epic":      { "capture_rate": 0.5,  "color": [0.75, 0.30, 1.00], "encounter_weight": 10 },
+    "legendary": { "capture_rate": 0.2,  "color": [1.00, 0.80, 0.15], "encounter_weight": 5  }
+  },
+  "element_colors": {
+    "fire":     [1.0,  0.40, 0.10],
+    "water":    [0.20, 0.55, 1.00],
+    "nature":   [0.20, 0.85, 0.30],
+    "earth":    [0.85, 0.55, 0.20],
+    "electric": [1.00, 0.90, 0.10],
+    "wind":     [0.40, 0.90, 0.85],
+    "ice":      [0.50, 0.85, 1.00],
+    "metal":    [0.70, 0.75, 0.80],
+    "poison":   [0.75, 0.20, 0.90],
+    "light":    [1.00, 0.95, 0.50],
+    "dark":     [0.55, 0.30, 0.75],
+    "magic":    [1.00, 0.40, 0.80]
+  },
+  "element_icons": {
+    "fire": "🔥", "water": "💧", "nature": "🌿", "earth": "🪨",
+    "electric": "⚡", "wind": "🌪", "ice": "❄", "metal": "⚙",
+    "poison": "☠", "light": "✨", "dark": "🌑", "magic": "🔮"
+  },
+  "element_icon_files": {
+    "fire":     "res://assets/elements/elem_fire.png",
+    "water":    "res://assets/elements/elem_water.png",
+    "nature":   "res://assets/elements/elem_nature.png",
+    "earth":    "res://assets/elements/elem_earth.png",
+    "electric": "res://assets/elements/elem_electric.png",
+    "wind":     "res://assets/elements/elem_wind.png",
+    "ice":      "res://assets/elements/elem_ice.png",
+    "metal":    "res://assets/elements/elem_metal.png",
+    "poison":   "res://assets/elements/elem_poison.png",
+    "light":    "res://assets/elements/elem_light.png",
+    "dark":     "res://assets/elements/elem_dark.png",
+    "magic":    "res://assets/elements/elem_magic.png"
+  },
+  "effectiveness": {
+    "fire":     { "nature": 1.5, "ice": 1.5,      "water": 0.5,    "fire": 0.5 },
+    "water":    { "fire": 1.5,   "earth": 1.5,    "nature": 0.5,   "water": 0.5 },
+    "nature":   { "earth": 1.5,  "magic": 1.5,    "fire": 0.5,     "nature": 0.5 },
+    "earth":    { "electric": 1.5,"poison": 1.5,  "nature": 0.5,   "earth": 0.5 },
+    "electric": { "water": 1.5,  "metal": 1.5,    "earth": 0.5,    "electric": 0.5 },
+    "wind":     { "earth": 1.5,  "nature": 1.5,   "metal": 0.5,    "wind": 0.5 },
+    "ice":      { "nature": 1.5, "wind": 1.5,     "fire": 0.5,     "ice": 0.5 },
+    "metal":    { "ice": 1.5,    "light": 1.5,    "electric": 0.5, "metal": 0.5 },
+    "poison":   { "nature": 1.5, "magic": 1.5,    "earth": 0.5,    "poison": 0.5 },
+    "light":    { "dark": 1.5,   "magic": 1.5,    "metal": 0.5 },
+    "dark":     { "light": 1.5,  "magic": 1.5 },
+    "magic":    { "poison": 1.5, "metal": 1.5,    "dark": 0.5 }
+  }
+}

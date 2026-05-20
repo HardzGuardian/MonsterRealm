@@ -1,0 +1,468 @@
+{
+  "basic_attack": {
+    "name": "Basic Attack",
+    "kind": "damage",
+    "power": 10,
+    "accuracy": 100,
+    "message": "used Basic Attack!"
+  },
+  "kick": {
+    "name": "Kick",
+    "kind": "damage",
+    "power": 12,
+    "accuracy": 100,
+    "message": "unleashes a sharp Kick!"
+  },
+  "roundhouse": {
+    "name": "Roundhouse",
+    "kind": "damage",
+    "power": 22,
+    "accuracy": 95,
+    "message": "spins into a Roundhouse kick!"
+  },
+  "catapult": {
+    "name": "Catapult",
+    "kind": "damage",
+    "element": "fire",
+    "power": 32,
+    "accuracy": 90,
+    "message": "launches a blazing Catapult!"
+  },
+  "feral_fire": {
+    "name": "Feral Fire", "kind": "damage", "element": "fire",
+    "power": 50, "accuracy": 88, "signature": true, "ranged": true,
+    "message": "erupts with wild Feral Fire!"
+  },
+  "zodiac_armor": {
+    "name": "Iron Guard",
+    "kind": "buff",
+    "stat": "defense",
+    "amount": 6,
+    "accuracy": 100,
+    "message": "raised an Iron Guard!"
+  },
+  "zodiac_weakness": {
+    "name": "War Cry",
+    "kind": "debuff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 88,
+    "message": "let out a fearsome War Cry!"
+  },
+  "fireball": {
+    "name": "Fireball", "kind": "damage", "element": "fire",
+    "power": 20, "accuracy": 95, "ranged": true,
+    "message": "shot a blazing Fireball!"
+  },
+  "water_gun": {
+    "name": "Water Gun", "kind": "damage", "element": "water",
+    "power": 20, "accuracy": 100, "ranged": true,
+    "message": "blasted a stream of Water!"
+  },
+  "vine_whip": {
+    "name": "Vine Whip", "kind": "damage", "element": "nature",
+    "power": 20, "accuracy": 100, "ranged": true,
+    "message": "whipped with sharp Vines!"
+  },
+  "rock_throw": {
+    "name": "Rock Throw", "kind": "damage", "element": "earth",
+    "power": 20, "accuracy": 90, "ranged": true,
+    "message": "hurled a heavy Rock!"
+  },
+  "spark": {
+    "name": "Spark", "kind": "damage", "element": "electric",
+    "power": 20, "accuracy": 100, "ranged": true,
+    "message": "released a crackling Spark!"
+  },
+  "gust": {
+    "name": "Gust", "kind": "damage", "element": "wind",
+    "power": 20, "accuracy": 100, "ranged": true,
+    "message": "summoned a fierce Gust!"
+  },
+  "ice_shard": {
+    "name": "Ice Shard", "kind": "damage", "element": "ice",
+    "power": 20, "accuracy": 95, "ranged": true,
+    "message": "flung a freezing Ice Shard!"
+  },
+  "iron_head": {
+    "name": "Iron Head", "kind": "damage", "element": "metal",
+    "power": 20, "accuracy": 90, "ranged": true,
+    "message": "slammed with an Iron Head!"
+  },
+  "poison_sting": {
+    "name": "Poison Sting", "kind": "damage", "element": "poison",
+    "power": 20, "accuracy": 100, "ranged": true,
+    "status_effect": "poison", "status_turns": 5, "status_chance": 0.70,
+    "message": "shot a venomous Poison Sting!"
+  },
+  "holy_light": {
+    "name": "Holy Light", "kind": "damage", "element": "light",
+    "power": 20, "accuracy": 100, "ranged": true,
+    "message": "shined a searing Holy Light!"
+  },
+  "shadow_ball": {
+    "name": "Shadow Ball", "kind": "damage", "element": "dark",
+    "power": 20, "accuracy": 90, "ranged": true,
+    "message": "hurls a dark Shadow Ball!"
+  },
+  "arcane_blast": {
+    "name": "Arcane Blast", "kind": "damage", "element": "magic",
+    "power": 25, "accuracy": 85, "ranged": true,
+    "message": "unleashed an Arcane Blast!"
+  },
+  "inner_flame": {
+    "name": "Inner Flame",
+    "kind": "buff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "stoked its Inner Flame!"
+  },
+  "ember": {
+    "name": "Ember",
+    "kind": "damage",
+    "element": "fire",
+    "power": 18,
+    "accuracy": 100,
+    "ranged": true,
+    "status_effect": "burn",
+    "status_turns": 3,
+    "status_chance": 0.30,
+    "message": "scorched with Ember!"
+  },
+  "aqua_veil": {
+    "name": "Aqua Veil",
+    "kind": "buff",
+    "stat": "defense",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "surrounded itself with Aqua Veil!"
+  },
+  "photosynthesis": {
+    "name": "Photosynthesis",
+    "kind": "buff",
+    "stat": "hp",
+    "amount": 15,
+    "accuracy": 100,
+    "message": "absorbed sunlight with Photosynthesis!"
+  },
+  "stone_skin": {
+    "name": "Stone Skin",
+    "kind": "buff",
+    "stat": "defense",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "hardened its skin to Stone!"
+  },
+  "overcharge": {
+    "name": "Overcharge",
+    "kind": "buff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "Overcharged its energy!"
+  },
+  "zephyrs_grace": {
+    "name": "Zephyr's Grace",
+    "kind": "buff",
+    "stat": "speed",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "gained Zephyr's Grace!"
+  },
+  "chilly_aura": {
+    "name": "Chilly Aura",
+    "kind": "buff",
+    "stat": "defense",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "radiated a Chilly Aura!"
+  },
+  "iron_will": {
+    "name": "Iron Will",
+    "kind": "buff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "steeled its Iron Will!"
+  },
+  "toxic_surge": {
+    "name": "Toxic Surge",
+    "kind": "debuff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 100,
+    "status_effect": "poison", "status_turns": 4, "status_chance": 1.0,
+    "message": "released a Toxic Surge!"
+  },
+  "brilliant_glow": {
+    "name": "Brilliant Glow",
+    "kind": "buff",
+    "stat": "defense",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "emitted a Brilliant Glow!"
+  },
+  "umbral_shroud": {
+    "name": "Umbral Shroud",
+    "kind": "buff",
+    "stat": "defense",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "hid in an Umbral Shroud!"
+  },
+  "mystic_barrier": {
+    "name": "Mystic Barrier",
+    "kind": "buff",
+    "stat": "defense",
+    "amount": 5,
+    "accuracy": 100,
+    "message": "raised a Mystic Barrier!"
+  },
+  "burn_out": {
+    "name": "Burn Out",
+    "kind": "debuff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 90,
+    "message": "caused the enemy to Burn Out!"
+  },
+  "silt_cloud": {
+    "name": "Silt Cloud",
+    "kind": "debuff",
+    "stat": "accuracy",
+    "amount": 5,
+    "accuracy": 85,
+    "message": "blinded with a Silt Cloud!"
+  },
+  "entangle": {
+    "name": "Entangle",
+    "kind": "debuff",
+    "stat": "speed",
+    "amount": 5,
+    "accuracy": 90,
+    "message": "Entangled the enemy!"
+  },
+  "mud_slap": {
+    "name": "Mud Slap",
+    "kind": "debuff",
+    "stat": "accuracy",
+    "amount": 5,
+    "accuracy": 85,
+    "message": "slapped with Mud!"
+  },
+  "paralyze": {
+    "name": "Paralyze",
+    "kind": "debuff",
+    "stat": "speed",
+    "amount": 5,
+    "accuracy": 90,
+    "status_effect": "paralysis", "status_turns": 2, "status_chance": 1.0,
+    "message": "Paralyzed the enemy!"
+  },
+  "blown_away": {
+    "name": "Blown Away",
+    "kind": "debuff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 90,
+    "message": "blew the enemy away!"
+  },
+  "frostbite": {
+    "name": "Frostbite",
+    "kind": "debuff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 90,
+    "message": "inflicted Frostbite!"
+  },
+  "corrode": {
+    "name": "Corrode",
+    "kind": "debuff",
+    "stat": "defense",
+    "amount": 5,
+    "accuracy": 90,
+    "message": "Corroded the enemy's armor!"
+  },
+  "nauseate": {
+    "name": "Nauseate",
+    "kind": "debuff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 85,
+    "message": "Nauseated the enemy!"
+  },
+  "dazzle": {
+    "name": "Dazzle",
+    "kind": "debuff",
+    "stat": "accuracy",
+    "amount": 5,
+    "accuracy": 85,
+    "message": "Dazzled the enemy!"
+  },
+  "terrify": {
+    "name": "Terrify",
+    "kind": "debuff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 90,
+    "message": "Terrified the enemy!"
+  },
+  "silence": {
+    "name": "Silence",
+    "kind": "debuff",
+    "stat": "attack",
+    "amount": 5,
+    "accuracy": 90,
+    "message": "Silenced the enemy!"
+  },
+  "inferno_burst": {
+    "name": "Inferno Burst",
+    "kind": "damage",
+    "element": "fire",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "erupts in a blazing Inferno Burst!"
+  },
+  "tidal_wave": {
+    "name": "Tidal Wave",
+    "kind": "damage",
+    "element": "water",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "unleashes a crushing Tidal Wave!"
+  },
+  "overgrowth": {
+    "name": "Overgrowth",
+    "kind": "damage",
+    "element": "nature",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "triggers a wild Overgrowth!"
+  },
+  "earthquake": {
+    "name": "Earthquake",
+    "kind": "damage",
+    "element": "earth",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "shakes the ground with Earthquake!"
+  },
+  "thunder_strike": {
+    "name": "Thunder Strike",
+    "kind": "damage",
+    "element": "electric",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "calls down a Thunder Strike!"
+  },
+  "cyclone": {
+    "name": "Cyclone",
+    "kind": "damage",
+    "element": "wind",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "whips up a deadly Cyclone!"
+  },
+  "blizzard": {
+    "name": "Blizzard",
+    "kind": "damage",
+    "element": "ice",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "summons a raging Blizzard!"
+  },
+  "steel_crush": {
+    "name": "Steel Crush",
+    "kind": "damage",
+    "element": "metal",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "delivers a crushing Steel Crush!"
+  },
+  "venom_burst": {
+    "name": "Venom Burst",
+    "kind": "damage",
+    "element": "poison",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "status_effect": "poison", "status_turns": 7, "status_chance": 1.0,
+    "message": "releases a toxic Venom Burst!"
+  },
+  "divine_judgment": {
+    "name": "Divine Judgment",
+    "kind": "damage",
+    "element": "light",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "calls down Divine Judgment!"
+  },
+  "void_strike": {
+    "name": "Void Strike",
+    "kind": "damage",
+    "element": "dark",
+    "power": 48,
+    "accuracy": 90,
+    "signature": true,
+    "message": "tears reality with Void Strike!"
+  },
+  "arcane_nova": {
+    "name": "Arcane Nova",
+    "kind": "damage",
+    "element": "magic",
+    "power": 52,
+    "accuracy": 85,
+    "signature": true,
+    "message": "detonates an Arcane Nova!"
+  },
+
+  "water_pulse": { "name": "Water Pulse", "kind": "damage", "element": "water", "power": 25, "accuracy": 95, "ranged": true, "message": "fired a pulsing Water Pulse!" },
+  "bubble_beam": { "name": "Bubble Beam", "kind": "damage", "element": "water", "power": 22, "accuracy": 100, "ranged": true, "message": "blasted with Bubble Beam!" },
+  "leaf_blade": { "name": "Leaf Blade", "kind": "damage", "element": "nature", "power": 22, "accuracy": 95, "message": "slashed with a Leaf Blade!" },
+  "petal_dance": { "name": "Petal Dance", "kind": "buff", "stat": "attack", "amount": 6, "accuracy": 100, "message": "danced in a shower of Petals!" },
+  "metal_claw": { "name": "Metal Claw", "kind": "damage", "element": "metal", "power": 22, "accuracy": 95, "message": "raked with Metal Claws!" },
+  "night_slash": { "name": "Night Slash", "kind": "damage", "element": "dark", "power": 22, "accuracy": 95, "message": "struck with a Night Slash!" },
+  "swift": { "name": "Swift", "kind": "damage", "element": "wind", "power": 18, "accuracy": 100, "ranged": true, "message": "fired Swift star-shots!" },
+  "aurora_beam": { "name": "Aurora Beam", "kind": "damage", "element": "ice", "power": 22, "accuracy": 95, "ranged": true, "message": "fired a rainbow Aurora Beam!" },
+  "zap_cannon": { "name": "Zap Cannon", "kind": "damage", "element": "electric", "power": 28, "accuracy": 80, "ranged": true, "status_effect": "paralysis", "status_turns": 2, "status_chance": 1.0, "message": "blasted with a Zap Cannon!" },
+  "smoke_screen": { "name": "Smoke Screen", "kind": "debuff", "stat": "accuracy", "amount": 6, "accuracy": 100, "message": "blew a blinding Smoke Screen!" },
+  "dream_eater": { "name": "Dream Eater", "kind": "damage", "element": "magic", "power": 25, "accuracy": 85, "ranged": true, "message": "devoured dreams with Dream Eater!" },
+  "sand_tomb": { "name": "Sand Tomb", "kind": "debuff", "stat": "speed", "amount": 5, "accuracy": 90, "message": "trapped in a Sand Tomb!" },
+  "tail_whip": { "name": "Tail Whip", "kind": "debuff", "stat": "defense", "amount": 5, "accuracy": 100, "message": "lowered defense with Tail Whip!" },
+  "headbutt": { "name": "Headbutt", "kind": "damage", "element": "earth", "power": 22, "accuracy": 90, "message": "slammed with a Headbutt!" },
+  "quick_attack": { "name": "Quick Attack", "kind": "damage", "power": 14, "accuracy": 100, "message": "struck first with Quick Attack!" },
+  "snarl": { "name": "Snarl", "kind": "debuff", "stat": "attack", "amount": 5, "accuracy": 95, "message": "let out a vicious Snarl!" },
+  "icy_wind": { "name": "Icy Wind", "kind": "damage", "element": "ice", "power": 18, "accuracy": 95, "ranged": true, "message": "blasted with Icy Wind!" },
+  "acid": { "name": "Acid", "kind": "damage", "element": "poison", "power": 20, "accuracy": 100, "ranged": true, "message": "sprayed corrosive Acid!" },
+  "thunder_wave": { "name": "Thunder Wave", "kind": "debuff", "stat": "speed", "amount": 5, "accuracy": 90, "status_effect": "paralysis", "status_turns": 2, "status_chance": 0.6, "message": "sent a Thunder Wave!" },
+  "shadow_sneak": { "name": "Shadow Sneak", "kind": "damage", "element": "dark", "power": 18, "accuracy": 100, "message": "struck from the shadows!" },
+  "steel_wing": { "name": "Steel Wing", "kind": "damage", "element": "metal", "power": 20, "accuracy": 90, "message": "slashed with Steel Wings!" },
+  "peck": { "name": "Peck", "kind": "damage", "element": "wind", "power": 14, "accuracy": 100, "message": "pecked sharply!" },
+  "lullaby": { "name": "Lullaby", "kind": "debuff", "stat": "speed", "amount": 6, "accuracy": 85, "message": "sang a drowsy Lullaby!" },
+
+  "smoke_burst": { "name": "Smoke Burst", "kind": "damage", "element": "fire", "power": 48, "accuracy": 90, "signature": true, "status_effect": "burn", "status_turns": 3, "status_chance": 0.4, "message": "erupted in a blinding Smoke Burst!" },
+  "leviathan_surge": { "name": "Leviathan Surge", "kind": "damage", "element": "water", "power": 65, "accuracy": 88, "signature": true, "ranged": true, "message": "unleashes the Leviathan Surge!" },
+  "eldritch_howl": { "name": "Eldritch Howl", "kind": "damage", "element": "dark", "power": 55, "accuracy": 88, "signature": true, "message": "unleashes an Eldritch Howl!" },
+  "death_knell": { "name": "Death Knell", "kind": "damage", "element": "dark", "power": 62, "accuracy": 85, "signature": true, "ranged": true, "message": "tolls the Death Knell!" },
+  "zero_cannon": { "name": "Zero Cannon", "kind": "damage", "element": "metal", "power": 60, "accuracy": 85, "signature": true, "ranged": true, "message": "fires the Zero Cannon!" },
+  "dream_weave": { "name": "Dream Weave", "kind": "damage", "element": "magic", "power": 50, "accuracy": 88, "signature": true, "ranged": true, "message": "weaves a surreal Dream!" },
+  "shadow_storm": { "name": "Shadow Storm", "kind": "damage", "element": "dark", "power": 50, "accuracy": 90, "signature": true, "ranged": true, "message": "unleashes a raging Shadow Storm!" },
+  "thunder_fang": { "name": "Thunder Fang", "kind": "damage", "element": "electric", "power": 50, "accuracy": 90, "signature": true, "status_effect": "paralysis", "status_turns": 2, "status_chance": 0.3, "message": "bites with Thunder Fang!" },
+  "leaf_storm": { "name": "Leaf Storm", "kind": "damage", "element": "nature", "power": 55, "accuracy": 88, "signature": true, "ranged": true, "message": "unleashes a Leaf Storm!" },
+  "iron_cannon": { "name": "Iron Cannon", "kind": "damage", "element": "metal", "power": 50, "accuracy": 90, "signature": true, "ranged": true, "message": "fires an Iron Cannon!" },
+  "gale_force": { "name": "Gale Force", "kind": "damage", "element": "wind", "power": 50, "accuracy": 90, "signature": true, "ranged": true, "message": "unleashes Gale Force winds!" },
+  "frozen_tundra": { "name": "Frozen Tundra", "kind": "damage", "element": "ice", "power": 50, "accuracy": 90, "signature": true, "ranged": true, "message": "freezes the field with Frozen Tundra!" },
+  "toxic_blast": { "name": "Toxic Blast", "kind": "damage", "element": "poison", "power": 50, "accuracy": 90, "signature": true, "ranged": true, "status_effect": "poison", "status_turns": 5, "status_chance": 0.8, "message": "fires a Toxic Blast!" },
+  "solar_flare": { "name": "Solar Flare", "kind": "damage", "element": "light", "power": 50, "accuracy": 90, "signature": true, "ranged": true, "message": "blinds with a Solar Flare!" },
+  "infernal_roar": { "name": "Infernal Roar", "kind": "damage", "element": "fire", "power": 50, "accuracy": 90, "signature": true, "message": "roars with Infernal fury!" }
+}

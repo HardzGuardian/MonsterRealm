@@ -1,0 +1,5031 @@
+{
+	"alyx": {
+		"name": "Alyx",
+		"hp": 90,
+		"attack": 12,
+		"defense": 8,
+		"speed": 14,
+		"element": "fire",
+		"zodiac": "Leo",
+		"class": "Balanced",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Alyx.png",
+		"moves": [
+			"kick",
+			"roundhouse",
+			"zodiac_armor",
+			"zodiac_weakness"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "kick"
+			},
+			{
+				"level": 1,
+				"move": "feral_fire"
+			},
+			{
+				"level": 5,
+				"move": "roundhouse"
+			},
+			{
+				"level": 10,
+				"move": "zodiac_armor"
+			},
+			{
+				"level": 15,
+				"move": "zodiac_weakness"
+			},
+			{
+				"level": 25,
+				"move": "catapult"
+			}
+		],
+		"signature_move": "feral_fire",
+		"evolves_to": "alleaux",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"locations": [
+			"East Summer Road",
+			"Shadowmire Edge",
+			"Miasma Depths",
+			"Shadowmire Bulwark"
+		],
+		"description": "Thanks to its big ears, the Alyx has excellent hearing and balance.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"alleaux": {
+		"name": "Alleaux",
+		"hp": 130,
+		"attack": 24,
+		"defense": 14,
+		"speed": 18,
+		"element": "fire",
+		"zodiac": "Leo",
+		"class": "Balanced",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Alleaux.png",
+		"moves": [
+			"kick",
+			"roundhouse",
+			"zodiac_armor",
+			"catapult"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "kick"
+			},
+			{
+				"level": 1,
+				"move": "feral_fire"
+			},
+			{
+				"level": 5,
+				"move": "roundhouse"
+			},
+			{
+				"level": 10,
+				"move": "zodiac_armor"
+			},
+			{
+				"level": 15,
+				"move": "catapult"
+			},
+			{
+				"level": 20,
+				"move": "zodiac_weakness"
+			}
+		],
+		"signature_move": "feral_fire",
+		"evolves_to": "",
+		"locations": [
+			"Shadowmire Bulwark",
+			"Darkwood Vault"
+		],
+		"description": "The evolved form of Alyx bares its teeth and lets its hair run wild. Its Leo spirit burns fiercer than ever.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"beefee": {
+		"name": "Beefee",
+		"hp": 100,
+		"attack": 10,
+		"defense": 3,
+		"speed": 8,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Beefee.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"stone_skin",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 12,
+				"move": "stone_skin"
+			},
+			{
+				"level": 20,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "toro",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 3,
+		"description": "Beefees look like adorable baby cows, but they aren't afraid to stomp their foes.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"West Summer Road",
+			"East Summer Road",
+			"Warmwood Trail",
+			"Summer Field",
+			"Heavenly Greens Cemetery",
+			"Windhym Southshire"
+		]
+	},
+	"toro": {
+		"name": "Toro",
+		"hp": 130,
+		"attack": 18,
+		"defense": 5,
+		"speed": 10,
+		"element": "earth",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Toro.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"stone_skin",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 10,
+				"move": "stone_skin"
+			},
+			{
+				"level": 15,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Toro is the only Bull to ever win a Spanish Bull Fight and is a bovine rights activist.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"dinho": {
+		"name": "Dinho",
+		"hp": 85,
+		"attack": 15,
+		"defense": 1,
+		"speed": 16,
+		"element": "fire",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Dinho.png",
+		"moves": [
+			"basic_attack",
+			"fireball",
+			"inner_flame",
+			"burn_out"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "inferno_burst"
+			},
+			{
+				"level": 5,
+				"move": "ember"
+			},
+			{
+				"level": 8,
+				"move": "fireball"
+			},
+			{
+				"level": 12,
+				"move": "inner_flame"
+			},
+			{
+				"level": 22,
+				"move": "burn_out"
+			}
+		],
+		"signature_move": "inferno_burst",
+		"evolves_to": "ronal",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Dinho has an amazing ability to deliver precise kicks, helping it in sports.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"West Summer Road",
+			"East Summer Road",
+			"Warmwood Trail",
+			"Summer Field"
+		]
+	},
+	"ronal": {
+		"name": "Ronal",
+		"hp": 140,
+		"attack": 22,
+		"defense": 6,
+		"speed": 14,
+		"element": "earth",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Ronal.png",
+		"moves": [
+			"basic_attack",
+			"fireball",
+			"rock_throw",
+			"stone_skin"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "fireball"
+			},
+			{
+				"level": 10,
+				"move": "rock_throw"
+			},
+			{
+				"level": 15,
+				"move": "stone_skin"
+			},
+			{
+				"level": 20,
+				"move": "burn_out"
+			},
+			{
+				"level": 28,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Evolving from the small, playful Dinho, Ronal trades in quickness for sheer power.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"barnetta": {
+		"name": "Barnetta",
+		"hp": 95,
+		"attack": 14,
+		"defense": 2,
+		"speed": 12,
+		"element": "nature",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Barnetta.png",
+		"moves": [
+			"basic_attack",
+			"vine_whip",
+			"photosynthesis",
+			"entangle"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "overgrowth"
+			},
+			{
+				"level": 5,
+				"move": "vine_whip"
+			},
+			{
+				"level": 12,
+				"move": "photosynthesis"
+			},
+			{
+				"level": 20,
+				"move": "entangle"
+			}
+		],
+		"signature_move": "overgrowth",
+		"evolves_to": "",
+		"description": "Barnettas don't talk a lot, but they don't need to. They're amazing at everything.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Windhym Roadway",
+			"Windhym Flower Path",
+			"Windhym Flowerpit",
+			"Windhym Flower Pond",
+			"Gates of Windhym",
+			"Windhym Southshire"
+		]
+	},
+	"clovey": {
+		"name": "Clovey",
+		"hp": 80,
+		"attack": 12,
+		"defense": 2,
+		"speed": 15,
+		"element": "light",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Clovey.png",
+		"moves": [
+			"basic_attack",
+			"holy_light",
+			"brilliant_glow",
+			"dazzle"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "divine_judgment"
+			},
+			{
+				"level": 5,
+				"move": "holy_light"
+			},
+			{
+				"level": 12,
+				"move": "brilliant_glow"
+			},
+			{
+				"level": 20,
+				"move": "dazzle"
+			}
+		],
+		"signature_move": "divine_judgment",
+		"evolves_to": "",
+		"description": "Cloveys embody the saying 'good things come in small packages' and are said to bring luck.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Mega Hole"
+		]
+	},
+	"coldbear": {
+		"name": "Coldbear",
+		"hp": 125,
+		"attack": 18,
+		"defense": 4,
+		"speed": 10,
+		"element": "ice",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Coldbear.png",
+		"moves": [
+			"basic_attack",
+			"ice_shard",
+			"chilly_aura",
+			"frostbite"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "blizzard"
+			},
+			{
+				"level": 5,
+				"move": "ice_shard"
+			},
+			{
+				"level": 12,
+				"move": "chilly_aura"
+			},
+			{
+				"level": 20,
+				"move": "frostbite"
+			}
+		],
+		"signature_move": "blizzard",
+		"evolves_to": "",
+		"description": "Coldbear sleeps during the day and hunts at night, using its icy breath to freeze prey.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Northside"
+		]
+	},
+	"crabao": {
+		"name": "Crabao",
+		"hp": 110,
+		"attack": 13,
+		"defense": 5,
+		"speed": 9,
+		"element": "metal",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Crabao.png",
+		"moves": [
+			"basic_attack",
+			"iron_head",
+			"iron_will",
+			"corrode"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "steel_crush"
+			},
+			{
+				"level": 5,
+				"move": "iron_head"
+			},
+			{
+				"level": 12,
+				"move": "iron_will"
+			},
+			{
+				"level": 22,
+				"move": "corrode"
+			}
+		],
+		"signature_move": "steel_crush",
+		"evolves_to": "",
+		"description": "Crabao has a shell as hard as metal, making it a formidable defensive monster.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Sandswirl Beach",
+			"Mangrove Shallows",
+			"Shellstone Beachfront",
+			"Shellstone Lighthouse",
+			"Bushfall",
+			"Swirly Dock",
+			"Swirly Pier"
+		]
+	},
+	"edgar": {
+		"name": "Edgar",
+		"hp": 100,
+		"attack": 20,
+		"defense": 2,
+		"speed": 17,
+		"element": "dark",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Edgar.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"umbral_shroud",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "void_strike"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 12,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 22,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "void_strike",
+		"evolves_to": "",
+		"description": "Not the least obeisance made he; not a minute stopped or stayed he. A master of shadows.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Darkwood",
+			"Darkwood Vault",
+			"Heavenly Greens Cemetery"
+		]
+	},
+	"goatsabee": {
+		"name": "Goatsabee",
+		"hp": 115,
+		"attack": 16,
+		"defense": 3,
+		"speed": 13,
+		"element": "nature",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Goatsabee.png",
+		"moves": [
+			"basic_attack",
+			"vine_whip",
+			"photosynthesis",
+			"entangle"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "overgrowth"
+			},
+			{
+				"level": 5,
+				"move": "vine_whip"
+			},
+			{
+				"level": 10,
+				"move": "photosynthesis"
+			},
+			{
+				"level": 15,
+				"move": "entangle"
+			},
+			{
+				"level": 20,
+				"move": "poison_sting"
+			}
+		],
+		"signature_move": "overgrowth",
+		"evolves_to": "",
+		"description": "Wasabees have a hard time sitting down, so when they evolve they get proper legs.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"horus": {
+		"name": "Horus",
+		"hp": 150,
+		"attack": 25,
+		"defense": 3,
+		"speed": 22,
+		"element": "wind",
+		"rarity": "legendary",
+		"sprite": "res://assets/monsters/Horus.png",
+		"moves": [
+			"basic_attack",
+			"gust",
+			"zephyrs_grace",
+			"blown_away"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "cyclone"
+			},
+			{
+				"level": 5,
+				"move": "gust"
+			},
+			{
+				"level": 10,
+				"move": "zephyrs_grace"
+			},
+			{
+				"level": 18,
+				"move": "blown_away"
+			}
+		],
+		"signature_move": "cyclone",
+		"evolves_to": "",
+		"description": "A legendary bird that commands the skies with its massive wingspan.",
+		"growth": {
+			"hp": 11,
+			"attack": 3,
+			"defense": 2,
+			"speed": 1
+		},
+		"locations": [
+			"Windhym Flower Path",
+			"Windhym Gardens",
+			"Windhym Flowerpit",
+			"Gates of Windhym"
+		]
+	},
+	"lambo": {
+		"name": "Lambo",
+		"hp": 90,
+		"attack": 17,
+		"defense": 1,
+		"speed": 18,
+		"element": "electric",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Lambo.png",
+		"moves": [
+			"basic_attack",
+			"spark",
+			"overcharge",
+			"paralyze"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "thunder_strike"
+			},
+			{
+				"level": 5,
+				"move": "spark"
+			},
+			{
+				"level": 12,
+				"move": "overcharge"
+			},
+			{
+				"level": 22,
+				"move": "paralyze"
+			}
+		],
+		"signature_move": "thunder_strike",
+		"evolves_to": "",
+		"description": "Lambos have a sassy little attitude and will try to ram anything that moves.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"West Summer Road",
+			"East Summer Road",
+			"Warmwood Trail",
+			"Summer Field"
+		]
+	},
+	"lepus": {
+		"name": "Lepus",
+		"hp": 85,
+		"attack": 11,
+		"defense": 2,
+		"speed": 16,
+		"element": "magic",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Lepus.png",
+		"moves": [
+			"basic_attack",
+			"arcane_blast",
+			"mystic_barrier",
+			"silence"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "arcane_nova"
+			},
+			{
+				"level": 5,
+				"move": "arcane_blast"
+			},
+			{
+				"level": 12,
+				"move": "mystic_barrier"
+			},
+			{
+				"level": 22,
+				"move": "silence"
+			}
+		],
+		"signature_move": "arcane_nova",
+		"evolves_to": "",
+		"description": "A magical version of the rabbit, Lepus use their flowing head-wings to raid gardens.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Windhym Town Square"
+		]
+	},
+	"munninn": {
+		"name": "Munninn",
+		"hp": 105,
+		"attack": 19,
+		"defense": 2,
+		"speed": 17,
+		"element": "dark",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Munninn.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"umbral_shroud",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "void_strike"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 12,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 22,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "void_strike",
+		"evolves_to": "",
+		"description": "Munninns say that the raven once stole the sun, but they just use that as an excuse for bad behavior.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Shadowmire Bulwark",
+			"Mourningwood Pass",
+			"Oakford Shade"
+		]
+	},
+	"nar": {
+		"name": "Nar",
+		"hp": 110,
+		"attack": 15,
+		"defense": 4,
+		"speed": 13,
+		"element": "water",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Nar.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"aqua_veil",
+			"silt_cloud"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "tidal_wave"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 12,
+				"move": "aqua_veil"
+			},
+			{
+				"level": 22,
+				"move": "silt_cloud"
+			}
+		],
+		"signature_move": "tidal_wave",
+		"evolves_to": "",
+		"description": "The Nar is every bit as dangerous as it looks, ruling the deep ocean.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Mega Hole",
+			"Spiral Cave"
+		]
+	},
+	"olerk": {
+		"name": "Olerk",
+		"hp": 125,
+		"attack": 16,
+		"defense": 4,
+		"speed": 11,
+		"element": "earth",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Olerk.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"stone_skin",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 10,
+				"move": "stone_skin"
+			},
+			{
+				"level": 15,
+				"move": "mud_slap"
+			},
+			{
+				"level": 20,
+				"move": "shadow_ball"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "The evolution of the Vuvu, Olerk continues to hide behind a mask-- but what it hides is even more hideous.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"thorn": {
+		"name": "Thorn",
+		"hp": 100,
+		"attack": 18,
+		"defense": 3,
+		"speed": 14,
+		"element": "poison",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Thorn.png",
+		"moves": [
+			"basic_attack",
+			"poison_sting",
+			"toxic_surge",
+			"nauseate"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "venom_burst"
+			},
+			{
+				"level": 5,
+				"move": "poison_sting"
+			},
+			{
+				"level": 12,
+				"move": "toxic_surge"
+			},
+			{
+				"level": 22,
+				"move": "nauseate"
+			}
+		],
+		"signature_move": "venom_burst",
+		"evolves_to": "",
+		"description": "Thorn fights like a mad berserker, often rushing headlong into battle to destroy its opponents.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Miasma Depths",
+			"Sandswirl Shrubwalk",
+			"Sandswirl Point",
+			"Thornwood"
+		]
+	},
+	"vuvu": {
+		"name": "Vuvu",
+		"hp": 95,
+		"attack": 14,
+		"defense": 2,
+		"speed": 12,
+		"element": "dark",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Vuvu.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"umbral_shroud",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "void_strike"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 12,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 22,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "void_strike",
+		"evolves_to": "olerk",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Vuvus have a passion for mortuary rituals and can always be found wearing some sort of death mask.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Heavenly Greens Steps",
+			"Heavenly Greens Cemetery",
+			"The Rue Morgue",
+			"Cydonia Castle"
+		]
+	},
+	"wasabee": {
+		"name": "Wasabee",
+		"hp": 90,
+		"attack": 16,
+		"defense": 1,
+		"speed": 15,
+		"element": "poison",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Wasabee.png",
+		"moves": [
+			"basic_attack",
+			"poison_sting",
+			"toxic_surge",
+			"nauseate"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "venom_burst"
+			},
+			{
+				"level": 5,
+				"move": "poison_sting"
+			},
+			{
+				"level": 12,
+				"move": "toxic_surge"
+			},
+			{
+				"level": 22,
+				"move": "nauseate"
+			}
+		],
+		"signature_move": "venom_burst",
+		"evolves_to": "goatsabee",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "The Wasabee has a poisonous sting and a short temper.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"West Summer Road",
+			"East Summer Road",
+			"Warmwood Trail",
+			"Summer Field"
+		]
+	},
+	"weeplet": {
+		"name": "Weeplet",
+		"hp": 80,
+		"attack": 10,
+		"defense": 1,
+		"speed": 13,
+		"element": "water",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Weeplet.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"aqua_veil",
+			"silt_cloud"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "tidal_wave"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 12,
+				"move": "aqua_veil"
+			},
+			{
+				"level": 22,
+				"move": "silt_cloud"
+			}
+		],
+		"signature_move": "tidal_wave",
+		"evolves_to": "",
+		"description": "Weeplets are squishy, gelatinous creatures that cry constantly.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Sandswirl Beach",
+			"Shellstone Beachfront",
+			"Shellstone Lighthouse",
+			"Bushfall",
+			"Sandswirl Shrubwalk"
+		]
+	},
+	"willo": {
+		"name": "Willo",
+		"hp": 85,
+		"attack": 15,
+		"defense": 1,
+		"speed": 14,
+		"element": "fire",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Willo.png",
+		"moves": [
+			"basic_attack",
+			"fireball",
+			"inner_flame",
+			"burn_out"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "inferno_burst"
+			},
+			{
+				"level": 5,
+				"move": "ember"
+			},
+			{
+				"level": 8,
+				"move": "fireball"
+			},
+			{
+				"level": 12,
+				"move": "inner_flame"
+			},
+			{
+				"level": 22,
+				"move": "burn_out"
+			}
+		],
+		"signature_move": "inferno_burst",
+		"evolves_to": "",
+		"description": "When night falls, Willos float through the marshes, leading travelers astray.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Southshire Bridge",
+			"MadBeetch River"
+		]
+	},
+	"smok": {
+		"name": "Smok",
+		"hp": 80,
+		"attack": 14,
+		"defense": 1,
+		"speed": 15,
+		"element": "fire",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Smok.png",
+		"moves": [
+			"basic_attack",
+			"ember",
+			"smoke_screen",
+			"inner_flame"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "smoke_burst"
+			},
+			{
+				"level": 5,
+				"move": "ember"
+			},
+			{
+				"level": 10,
+				"move": "smoke_screen"
+			},
+			{
+				"level": 15,
+				"move": "inner_flame"
+			},
+			{
+				"level": 22,
+				"move": "fireball"
+			}
+		],
+		"signature_move": "smoke_burst",
+		"evolves_to": "ozake",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Smok belches thick black smoke from its chimney-like horns to confuse enemies.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Mega Hole"
+		]
+	},
+	"ozake": {
+		"name": "Ozake",
+		"hp": 115,
+		"attack": 20,
+		"defense": 4,
+		"speed": 16,
+		"element": "fire",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Ozake.png",
+		"moves": [
+			"basic_attack",
+			"fireball",
+			"smoke_screen",
+			"burn_out"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "smoke_burst"
+			},
+			{
+				"level": 5,
+				"move": "fireball"
+			},
+			{
+				"level": 10,
+				"move": "smoke_screen"
+			},
+			{
+				"level": 15,
+				"move": "inner_flame"
+			},
+			{
+				"level": 22,
+				"move": "burn_out"
+			}
+		],
+		"signature_move": "smoke_burst",
+		"evolves_to": "",
+		"description": "Ozake's smoke has thickened into a roiling storm of fire. Few dare challenge its wrath.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"nomy": {
+		"name": "Nomy",
+		"hp": 88,
+		"attack": 13,
+		"defense": 2,
+		"speed": 14,
+		"element": "fire",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Nomy.png",
+		"moves": [
+			"basic_attack",
+			"ember",
+			"fireball",
+			"inner_flame"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "inferno_burst"
+			},
+			{
+				"level": 5,
+				"move": "ember"
+			},
+			{
+				"level": 10,
+				"move": "fireball"
+			},
+			{
+				"level": 18,
+				"move": "inner_flame"
+			},
+			{
+				"level": 25,
+				"move": "burn_out"
+			}
+		],
+		"signature_move": "inferno_burst",
+		"evolves_to": "",
+		"description": "Nomy looks harmless with its bright colours, but a single touch of its fur causes nasty burns.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Windhym Flower Path",
+			"Windhym Gardens",
+			"Windhym Town Square",
+			"Windhym Southshire"
+		]
+	},
+	"rumbeard": {
+		"name": "Rumbeard",
+		"hp": 125,
+		"attack": 22,
+		"defense": 5,
+		"speed": 12,
+		"element": "fire",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Rumbeard.png",
+		"moves": [
+			"basic_attack",
+			"fireball",
+			"inner_flame",
+			"burn_out"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "infernal_roar"
+			},
+			{
+				"level": 5,
+				"move": "fireball"
+			},
+			{
+				"level": 10,
+				"move": "inner_flame"
+			},
+			{
+				"level": 15,
+				"move": "burn_out"
+			},
+			{
+				"level": 22,
+				"move": "smoke_screen"
+			}
+		],
+		"signature_move": "infernal_roar",
+		"evolves_to": "",
+		"description": "A fearsome pirate whose beard crackles with eternal flame. Never loses a game of cards.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"eefree": {
+		"name": "Eefree",
+		"hp": 110,
+		"attack": 20,
+		"defense": 2,
+		"speed": 18,
+		"element": "fire",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Eefree.png",
+		"moves": [
+			"basic_attack",
+			"fireball",
+			"ember",
+			"burn_out"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "inferno_burst"
+			},
+			{
+				"level": 5,
+				"move": "ember"
+			},
+			{
+				"level": 10,
+				"move": "fireball"
+			},
+			{
+				"level": 18,
+				"move": "burn_out"
+			},
+			{
+				"level": 25,
+				"move": "inner_flame"
+			}
+		],
+		"signature_move": "inferno_burst",
+		"evolves_to": "",
+		"description": "Once summoned from a lamp, Eefree now roams free — granting no wishes but burning everything in sight.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Bushfall",
+			"Sandswirl Point"
+		]
+	},
+	"tenpac": {
+		"name": "Tenpac",
+		"hp": 85,
+		"attack": 16,
+		"defense": 2,
+		"speed": 13,
+		"element": "fire",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Tenpac.png",
+		"moves": [
+			"basic_attack",
+			"ember",
+			"fireball",
+			"smoke_screen"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "smoke_burst"
+			},
+			{
+				"level": 5,
+				"move": "ember"
+			},
+			{
+				"level": 10,
+				"move": "fireball"
+			},
+			{
+				"level": 18,
+				"move": "burn_out"
+			}
+		],
+		"signature_move": "smoke_burst",
+		"evolves_to": "",
+		"description": "Tenpac breathes liquid fire and is known for its surprisingly smooth moves in battle.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Mega Hole",
+			"Spiral Cave",
+			"Sandswirl Beach"
+		]
+	},
+	"hakka": {
+		"name": "Hakka",
+		"hp": 118,
+		"attack": 21,
+		"defense": 3,
+		"speed": 17,
+		"element": "fire",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Hakka.png",
+		"moves": [
+			"basic_attack",
+			"ember",
+			"fireball",
+			"burn_out"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "infernal_roar"
+			},
+			{
+				"level": 5,
+				"move": "ember"
+			},
+			{
+				"level": 10,
+				"move": "fireball"
+			},
+			{
+				"level": 15,
+				"move": "inner_flame"
+			},
+			{
+				"level": 22,
+				"move": "burn_out"
+			}
+		],
+		"signature_move": "infernal_roar",
+		"evolves_to": "",
+		"description": "A blazing bird of prey whose feathers burn like coals. It screams before every strike.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Heavenly Greens Steps",
+			"Heavenly Greens Cemetery",
+			"The Rue Morgue"
+		]
+	},
+	"pwee": {
+		"name": "Pwee",
+		"hp": 85,
+		"attack": 10,
+		"defense": 3,
+		"speed": 12,
+		"element": "water",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Pwee.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"bubble_beam",
+			"aqua_veil"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "tidal_wave"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 10,
+				"move": "bubble_beam"
+			},
+			{
+				"level": 18,
+				"move": "aqua_veil"
+			}
+		],
+		"signature_move": "tidal_wave",
+		"evolves_to": "munyu",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Pwee spouts water through a blowhole on its head and is always in a cheerful mood.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Mega Hole",
+			"Spiral Cave"
+		]
+	},
+	"munyu": {
+		"name": "Munyu",
+		"hp": 95,
+		"attack": 12,
+		"defense": 4,
+		"speed": 13,
+		"element": "water",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Munyu.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"aqua_veil",
+			"silt_cloud"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "tidal_wave"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 10,
+				"move": "bubble_beam"
+			},
+			{
+				"level": 15,
+				"move": "aqua_veil"
+			},
+			{
+				"level": 22,
+				"move": "silt_cloud"
+			}
+		],
+		"signature_move": "tidal_wave",
+		"evolves_to": "jor",
+		"evolve_monsters_needed": 4,
+		"evolve_potions_needed": 3,
+		"description": "Munyu grew into a chubby, lovable sea creature. Its big eyes can spot prey 50 meters deep.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Spiral Path",
+			"Spiral Road",
+			"Northside",
+			"Heavenly Greens Steps"
+		]
+	},
+	"jor": {
+		"name": "Jor",
+		"hp": 130,
+		"attack": 18,
+		"defense": 6,
+		"speed": 14,
+		"element": "water",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Jor.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"aqua_veil",
+			"silt_cloud"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "leviathan_surge"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 10,
+				"move": "water_pulse"
+			},
+			{
+				"level": 15,
+				"move": "aqua_veil"
+			},
+			{
+				"level": 22,
+				"move": "silt_cloud"
+			}
+		],
+		"signature_move": "leviathan_surge",
+		"evolves_to": "",
+		"description": "The great serpent that encircles the world. Jor sleeps for centuries, but its waking causes floods.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Southshire Bridge",
+			"MadBeetch Rapids"
+		]
+	},
+	"ella": {
+		"name": "Ella",
+		"hp": 82,
+		"attack": 11,
+		"defense": 3,
+		"speed": 13,
+		"element": "water",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Ella.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"bubble_beam",
+			"aqua_veil"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "tidal_wave"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 12,
+				"move": "bubble_beam"
+			},
+			{
+				"level": 20,
+				"move": "aqua_veil"
+			}
+		],
+		"signature_move": "tidal_wave",
+		"evolves_to": "",
+		"description": "Ella is elegant and graceful underwater, spinning in spirals to disorient opponents.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Sandswirl Beach",
+			"Shellstone Beachfront",
+			"Swirly Pier",
+			"Sandswirl Peninsula"
+		]
+	},
+	"pulpo": {
+		"name": "Pulpo",
+		"hp": 88,
+		"attack": 13,
+		"defense": 2,
+		"speed": 11,
+		"element": "water",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Pulpo.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"silt_cloud",
+			"aqua_veil"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "tidal_wave"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 12,
+				"move": "silt_cloud"
+			},
+			{
+				"level": 20,
+				"move": "aqua_veil"
+			}
+		],
+		"signature_move": "tidal_wave",
+		"evolves_to": "",
+		"description": "Pulpo's eight arms work independently, letting it attack and defend simultaneously.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Mangrove Shallows",
+			"Shellstone Beachfront",
+			"Swirly Dock"
+		]
+	},
+	"dumboocto": {
+		"name": "Dumboocto",
+		"hp": 100,
+		"attack": 12,
+		"defense": 4,
+		"speed": 10,
+		"element": "water",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Dumboocto.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"bubble_beam",
+			"silt_cloud"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "tidal_wave"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 12,
+				"move": "bubble_beam"
+			},
+			{
+				"level": 20,
+				"move": "silt_cloud"
+			}
+		],
+		"signature_move": "tidal_wave",
+		"evolves_to": "",
+		"description": "Its giant ears help it glide through deep water. Despite its size, it is surprisingly gentle.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Swirly Dock",
+			"Swirly Pier",
+			"Sandswirl Peninsula",
+			"Sandswirl Tidal Pool",
+			"MadBeetch River"
+		]
+	},
+	"turtlenie": {
+		"name": "Turtlenie",
+		"hp": 105,
+		"attack": 11,
+		"defense": 6,
+		"speed": 9,
+		"element": "water",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Turtlenie.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"aqua_veil",
+			"tail_whip"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "tidal_wave"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 10,
+				"move": "aqua_veil"
+			},
+			{
+				"level": 18,
+				"move": "tail_whip"
+			},
+			{
+				"level": 25,
+				"move": "silt_cloud"
+			}
+		],
+		"signature_move": "tidal_wave",
+		"evolves_to": "",
+		"description": "Its thick shell deflects almost any attack. Turtlenie outlasted the dinosaurs and plans to outlast everything else.",
+		"growth": {
+			"hp": 9,
+			"attack": 1,
+			"defense": 2,
+			"speed": 1
+		},
+		"locations": [
+			"Miasma Depths",
+			"Shadowmire Bulwark",
+			"Gates of Windhym",
+			"Windhym Town Square"
+		]
+	},
+	"leviathan": {
+		"name": "Leviathan",
+		"hp": 180,
+		"attack": 30,
+		"defense": 8,
+		"speed": 18,
+		"element": "water",
+		"rarity": "legendary",
+		"sprite": "res://assets/monsters/Leviathan.png",
+		"moves": [
+			"basic_attack",
+			"water_gun",
+			"water_pulse",
+			"silt_cloud"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "leviathan_surge"
+			},
+			{
+				"level": 5,
+				"move": "water_gun"
+			},
+			{
+				"level": 10,
+				"move": "water_pulse"
+			},
+			{
+				"level": 18,
+				"move": "aqua_veil"
+			},
+			{
+				"level": 30,
+				"move": "silt_cloud"
+			}
+		],
+		"signature_move": "leviathan_surge",
+		"evolves_to": "",
+		"description": "A sea monster older than time. One flick of the Leviathan's tail can sink entire fleets.",
+		"growth": {
+			"hp": 12,
+			"attack": 3,
+			"defense": 2,
+			"speed": 1
+		},
+		"locations": [
+			"Sandswirl Beach",
+			"Mangrove Shallows",
+			"Swirly Dock",
+			"MadBeetch Rapids"
+		]
+	},
+	"leif": {
+		"name": "Leif",
+		"hp": 80,
+		"attack": 12,
+		"defense": 2,
+		"speed": 14,
+		"element": "nature",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Leif.png",
+		"moves": [
+			"basic_attack",
+			"vine_whip",
+			"photosynthesis",
+			"entangle"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "overgrowth"
+			},
+			{
+				"level": 5,
+				"move": "vine_whip"
+			},
+			{
+				"level": 12,
+				"move": "photosynthesis"
+			},
+			{
+				"level": 20,
+				"move": "entangle"
+			}
+		],
+		"signature_move": "overgrowth",
+		"evolves_to": "",
+		"description": "Leif sleeps curled under fallen leaves and wakes only when a battle is nearby.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Spiral Road",
+			"Northside"
+		]
+	},
+	"cloyd": {
+		"name": "Cloyd",
+		"hp": 88,
+		"attack": 13,
+		"defense": 3,
+		"speed": 12,
+		"element": "nature",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Cloyd.png",
+		"moves": [
+			"basic_attack",
+			"vine_whip",
+			"leaf_blade",
+			"photosynthesis"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "leaf_storm"
+			},
+			{
+				"level": 5,
+				"move": "vine_whip"
+			},
+			{
+				"level": 10,
+				"move": "leaf_blade"
+			},
+			{
+				"level": 18,
+				"move": "photosynthesis"
+			},
+			{
+				"level": 25,
+				"move": "entangle"
+			}
+		],
+		"signature_move": "leaf_storm",
+		"evolves_to": "",
+		"description": "Cloyd thrives in deep forests and can make plants grow at an alarming rate with a single touch.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Warmwood Trail",
+			"Mourningwood Pass",
+			"Oakford Shade"
+		]
+	},
+	"yara": {
+		"name": "Yara",
+		"hp": 85,
+		"attack": 14,
+		"defense": 2,
+		"speed": 13,
+		"element": "nature",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Yara.png",
+		"moves": [
+			"basic_attack",
+			"vine_whip",
+			"petal_dance",
+			"entangle"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "overgrowth"
+			},
+			{
+				"level": 5,
+				"move": "vine_whip"
+			},
+			{
+				"level": 10,
+				"move": "petal_dance"
+			},
+			{
+				"level": 18,
+				"move": "entangle"
+			},
+			{
+				"level": 25,
+				"move": "photosynthesis"
+			}
+		],
+		"signature_move": "overgrowth",
+		"evolves_to": "",
+		"description": "Yara is a guardian spirit of the jungle who punishes those who harm its trees.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Mega Hole",
+			"Sandswirl Beach",
+			"Mangrove Shallows",
+			"Shellstone Lighthouse",
+			"Sandswirl Point"
+		]
+	},
+	"pudgy": {
+		"name": "Pudgy",
+		"hp": 100,
+		"attack": 11,
+		"defense": 5,
+		"speed": 8,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Pudgy.png",
+		"moves": [
+			"basic_attack",
+			"headbutt",
+			"stone_skin",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "headbutt"
+			},
+			{
+				"level": 10,
+				"move": "stone_skin"
+			},
+			{
+				"level": 18,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Pudgy is a round, squishy creature that rolls into foes at surprising speed.",
+		"growth": {
+			"hp": 9,
+			"attack": 1,
+			"defense": 2,
+			"speed": 1
+		},
+		"locations": [
+			"Shadowmire Edge",
+			"Shadowmire Bulwark",
+			"Oakford Shade",
+			"Spiral Path"
+		]
+	},
+	"meh": {
+		"name": "Meh",
+		"hp": 92,
+		"attack": 12,
+		"defense": 4,
+		"speed": 10,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Meh.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"stone_skin",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 12,
+				"move": "stone_skin"
+			},
+			{
+				"level": 20,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Meh is perpetually unimpressed. It rolls its eyes before every attack.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Spiral Path",
+			"Spiral Road",
+			"Northside",
+			"Heavenly Greens Gate"
+		]
+	},
+	"stego": {
+		"name": "Stego",
+		"hp": 105,
+		"attack": 13,
+		"defense": 6,
+		"speed": 8,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Stego.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"stone_skin",
+			"headbutt"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 10,
+				"move": "stone_skin"
+			},
+			{
+				"level": 18,
+				"move": "headbutt"
+			},
+			{
+				"level": 25,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "juggernaut",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 3,
+		"description": "Stego's spiked back plates can pierce steel. Despite being ancient, it learns tricks quickly.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Spiral Cave",
+			"Trollworthy Bridge"
+		]
+	},
+	"juggernaut": {
+		"name": "Juggernaut",
+		"hp": 145,
+		"attack": 22,
+		"defense": 8,
+		"speed": 9,
+		"element": "earth",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Juggernaut.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"stone_skin",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 10,
+				"move": "stone_skin"
+			},
+			{
+				"level": 15,
+				"move": "headbutt"
+			},
+			{
+				"level": 22,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Nothing stops the Juggernaut. It charges through mountains and barely notices.",
+		"growth": {
+			"hp": 10,
+			"attack": 2,
+			"defense": 2,
+			"speed": 1
+		},
+		"locations": [
+			"Trollworthy Bridge",
+			"Southshire Bridge"
+		]
+	},
+	"bock": {
+		"name": "Bock",
+		"hp": 95,
+		"attack": 14,
+		"defense": 3,
+		"speed": 11,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Bock.png",
+		"moves": [
+			"basic_attack",
+			"headbutt",
+			"rock_throw",
+			"stone_skin"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "headbutt"
+			},
+			{
+				"level": 12,
+				"move": "rock_throw"
+			},
+			{
+				"level": 20,
+				"move": "stone_skin"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Bock loves to headbutt everything it sees. Boulders, trees, other mogas — nothing is safe.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Mega Hole",
+			"Spiral Cave"
+		]
+	},
+	"spike": {
+		"name": "Spike",
+		"hp": 90,
+		"attack": 15,
+		"defense": 3,
+		"speed": 11,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Spike.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"headbutt",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 12,
+				"move": "headbutt"
+			},
+			{
+				"level": 20,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Spike can launch its spines like missiles. It regrows them within hours.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Cydonia Castle"
+		]
+	},
+	"chuuchilla": {
+		"name": "Chuuchilla",
+		"hp": 85,
+		"attack": 13,
+		"defense": 2,
+		"speed": 14,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Chuuchilla.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"stone_skin",
+			"quick_attack"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "quick_attack"
+			},
+			{
+				"level": 10,
+				"move": "rock_throw"
+			},
+			{
+				"level": 18,
+				"move": "stone_skin"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "chuuzilla",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "This tiny creature vibrates at high frequency, shaking the ground with powerful tremors.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"West Summer Road",
+			"East Summer Road",
+			"Warmwood Trail",
+			"Summer Field"
+		]
+	},
+	"chuuzilla": {
+		"name": "Chuuzilla",
+		"hp": 140,
+		"attack": 21,
+		"defense": 6,
+		"speed": 12,
+		"element": "earth",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Chuuzilla.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"stone_skin",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 10,
+				"move": "stone_skin"
+			},
+			{
+				"level": 15,
+				"move": "headbutt"
+			},
+			{
+				"level": 22,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Chuuzilla towers over all other mogas. Its roar alone causes 4.0 magnitude earthquakes.",
+		"growth": {
+			"hp": 10,
+			"attack": 2,
+			"defense": 2,
+			"speed": 1
+		}
+	},
+	"sheriff": {
+		"name": "Sheriff",
+		"hp": 88,
+		"attack": 14,
+		"defense": 3,
+		"speed": 12,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Sheriff.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"headbutt",
+			"stone_skin"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 12,
+				"move": "headbutt"
+			},
+			{
+				"level": 20,
+				"move": "stone_skin"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Sheriff keeps order with iron claws. It has never missed a target — not once.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"messi": {
+		"name": "Messi",
+		"hp": 86,
+		"attack": 16,
+		"defense": 1,
+		"speed": 16,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Messi.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"quick_attack",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "quick_attack"
+			},
+			{
+				"level": 10,
+				"move": "rock_throw"
+			},
+			{
+				"level": 18,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Messi is the greatest earth moga alive. Its footwork is unmatched, and it knows it.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Spiral Path",
+			"Spiral Road",
+			"Northside"
+		]
+	},
+	"trolo": {
+		"name": "Trolo",
+		"hp": 95,
+		"attack": 15,
+		"defense": 4,
+		"speed": 10,
+		"element": "earth",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Trolo.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"headbutt",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 10,
+				"move": "headbutt"
+			},
+			{
+				"level": 18,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "brolo",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Trolo lives under bridges and will challenge anyone who crosses. It never backs down.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Miasma Depths",
+			"Shadowmire Bulwark",
+			"Darkwood",
+			"Mourningwood Pass",
+			"Oakford Shade",
+			"The Rue Morgue",
+			"Trollworthy Bridge"
+		]
+	},
+	"brolo": {
+		"name": "Brolo",
+		"hp": 130,
+		"attack": 22,
+		"defense": 6,
+		"speed": 11,
+		"element": "earth",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Brolo.png",
+		"moves": [
+			"basic_attack",
+			"rock_throw",
+			"stone_skin",
+			"mud_slap"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "earthquake"
+			},
+			{
+				"level": 5,
+				"move": "rock_throw"
+			},
+			{
+				"level": 10,
+				"move": "stone_skin"
+			},
+			{
+				"level": 15,
+				"move": "headbutt"
+			},
+			{
+				"level": 22,
+				"move": "mud_slap"
+			}
+		],
+		"signature_move": "earthquake",
+		"evolves_to": "",
+		"description": "Brolo is a legend among trolls. Mountains crack when it flexes.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Trollworthy Bridge"
+		]
+	},
+	"electrotter": {
+		"name": "Electrotter",
+		"hp": 82,
+		"attack": 15,
+		"defense": 1,
+		"speed": 16,
+		"element": "electric",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Electrotter.png",
+		"moves": [
+			"basic_attack",
+			"spark",
+			"overcharge",
+			"thunder_wave"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "thunder_strike"
+			},
+			{
+				"level": 5,
+				"move": "spark"
+			},
+			{
+				"level": 10,
+				"move": "thunder_wave"
+			},
+			{
+				"level": 18,
+				"move": "overcharge"
+			},
+			{
+				"level": 25,
+				"move": "zap_cannon"
+			}
+		],
+		"signature_move": "thunder_strike",
+		"evolves_to": "",
+		"description": "Electrotter discharges electricity constantly, leaving scorch marks wherever it trots.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"MadBeetch River",
+			"MadBeetch Rapids"
+		]
+	},
+	"ac": {
+		"name": "AC",
+		"hp": 110,
+		"attack": 20,
+		"defense": 4,
+		"speed": 17,
+		"element": "electric",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/AC (A.C.).png",
+		"moves": [
+			"basic_attack",
+			"spark",
+			"zap_cannon",
+			"overcharge"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "thunder_fang"
+			},
+			{
+				"level": 5,
+				"move": "spark"
+			},
+			{
+				"level": 10,
+				"move": "overcharge"
+			},
+			{
+				"level": 15,
+				"move": "zap_cannon"
+			},
+			{
+				"level": 22,
+				"move": "paralyze"
+			}
+		],
+		"signature_move": "thunder_fang",
+		"evolves_to": "",
+		"description": "A robot moga powered by an internal thunderstorm. Its systems are always running at full voltage.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Miasma Depths",
+			"Mourningwood Pass",
+			"Oakford Shade"
+		]
+	},
+	"staryak": {
+		"name": "Staryak",
+		"hp": 115,
+		"attack": 19,
+		"defense": 5,
+		"speed": 15,
+		"element": "electric",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Staryak.png",
+		"moves": [
+			"basic_attack",
+			"spark",
+			"overcharge",
+			"zap_cannon"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "thunder_fang"
+			},
+			{
+				"level": 5,
+				"move": "spark"
+			},
+			{
+				"level": 10,
+				"move": "overcharge"
+			},
+			{
+				"level": 15,
+				"move": "zap_cannon"
+			},
+			{
+				"level": 22,
+				"move": "paralyze"
+			}
+		],
+		"signature_move": "thunder_fang",
+		"evolves_to": "",
+		"description": "Staryak wandered down from the electric highlands. Its fur crackles with static night and day.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Spiral Path",
+			"Northside"
+		]
+	},
+	"twister": {
+		"name": "Twister",
+		"hp": 82,
+		"attack": 13,
+		"defense": 1,
+		"speed": 17,
+		"element": "wind",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Twister.png",
+		"moves": [
+			"basic_attack",
+			"gust",
+			"swift",
+			"blown_away"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "gale_force"
+			},
+			{
+				"level": 5,
+				"move": "gust"
+			},
+			{
+				"level": 10,
+				"move": "swift"
+			},
+			{
+				"level": 18,
+				"move": "blown_away"
+			},
+			{
+				"level": 25,
+				"move": "zephyrs_grace"
+			}
+		],
+		"signature_move": "gale_force",
+		"evolves_to": "",
+		"description": "A living whirlwind. Twister can spin at 200mph and enjoys picking up small objects.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Sandswirl Shrubwalk",
+			"Sandswirl Point",
+			"Sandswirl Peninsula",
+			"Sandswirl Tidal Pool"
+		]
+	},
+	"winja": {
+		"name": "Winja",
+		"hp": 85,
+		"attack": 16,
+		"defense": 1,
+		"speed": 18,
+		"element": "wind",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Winja.png",
+		"moves": [
+			"basic_attack",
+			"swift",
+			"gust",
+			"blown_away"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "gale_force"
+			},
+			{
+				"level": 5,
+				"move": "swift"
+			},
+			{
+				"level": 8,
+				"move": "gust"
+			},
+			{
+				"level": 15,
+				"move": "blown_away"
+			},
+			{
+				"level": 22,
+				"move": "zephyrs_grace"
+			}
+		],
+		"signature_move": "gale_force",
+		"evolves_to": "",
+		"description": "A wind ninja who strikes faster than the eye can follow. Its shuriken are made of compressed air.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Heavenly Greens Cemetery",
+			"The Rue Morgue"
+		]
+	},
+	"anini": {
+		"name": "Anini",
+		"hp": 80,
+		"attack": 12,
+		"defense": 2,
+		"speed": 16,
+		"element": "wind",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Anini.png",
+		"moves": [
+			"basic_attack",
+			"peck",
+			"gust",
+			"swift"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "cyclone"
+			},
+			{
+				"level": 5,
+				"move": "peck"
+			},
+			{
+				"level": 10,
+				"move": "gust"
+			},
+			{
+				"level": 18,
+				"move": "swift"
+			},
+			{
+				"level": 25,
+				"move": "blown_away"
+			}
+		],
+		"signature_move": "cyclone",
+		"evolves_to": "",
+		"description": "Anini rides thermal currents for weeks without landing. It sleeps while soaring.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Windhym Roadway",
+			"Windhym Flower Path",
+			"Windhym Flowerpit"
+		]
+	},
+	"colibri": {
+		"name": "Colibri",
+		"hp": 75,
+		"attack": 13,
+		"defense": 1,
+		"speed": 20,
+		"element": "wind",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Colibri.png",
+		"moves": [
+			"basic_attack",
+			"peck",
+			"swift",
+			"gust"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "gale_force"
+			},
+			{
+				"level": 5,
+				"move": "peck"
+			},
+			{
+				"level": 10,
+				"move": "swift"
+			},
+			{
+				"level": 18,
+				"move": "gust"
+			},
+			{
+				"level": 25,
+				"move": "zephyrs_grace"
+			}
+		],
+		"signature_move": "gale_force",
+		"evolves_to": "",
+		"description": "Colibri is the fastest moga alive. It flaps its wings 80 times per second.",
+		"growth": {
+			"hp": 7,
+			"attack": 2,
+			"defense": 1,
+			"speed": 2
+		},
+		"locations": [
+			"Shadowmire Edge",
+			"Miasma Depths",
+			"Shadowmire Bulwark",
+			"Darkwood",
+			"Mourningwood Pass"
+		]
+	},
+	"owlreed": {
+		"name": "Owlreed",
+		"hp": 88,
+		"attack": 14,
+		"defense": 2,
+		"speed": 15,
+		"element": "wind",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Owlreed.png",
+		"moves": [
+			"basic_attack",
+			"gust",
+			"swift",
+			"zephyrs_grace"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "cyclone"
+			},
+			{
+				"level": 5,
+				"move": "gust"
+			},
+			{
+				"level": 10,
+				"move": "swift"
+			},
+			{
+				"level": 18,
+				"move": "zephyrs_grace"
+			},
+			{
+				"level": 25,
+				"move": "blown_away"
+			}
+		],
+		"signature_move": "cyclone",
+		"evolves_to": "",
+		"description": "Owlreed hunts in complete silence. Its feathers muffle all sound — even the wind.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Shadowmire Edge",
+			"Miasma Depths",
+			"Shadowmire Bulwark",
+			"Darkwood",
+			"Mourningwood Pass"
+		]
+	},
+	"booly": {
+		"name": "Booly",
+		"hp": 95,
+		"attack": 14,
+		"defense": 3,
+		"speed": 12,
+		"element": "ice",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Booly.png",
+		"moves": [
+			"basic_attack",
+			"ice_shard",
+			"icy_wind",
+			"chilly_aura"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "frozen_tundra"
+			},
+			{
+				"level": 5,
+				"move": "ice_shard"
+			},
+			{
+				"level": 10,
+				"move": "icy_wind"
+			},
+			{
+				"level": 18,
+				"move": "chilly_aura"
+			},
+			{
+				"level": 25,
+				"move": "frostbite"
+			}
+		],
+		"signature_move": "frozen_tundra",
+		"evolves_to": "woolf",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Booly uses its frozen fists to punch holes in icebergs for fun. It gets bored easily.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Windhym Flowerpit",
+			"Windhym Flower Pond",
+			"Gates of Windhym"
+		]
+	},
+	"woolf": {
+		"name": "Woolf",
+		"hp": 130,
+		"attack": 21,
+		"defense": 5,
+		"speed": 14,
+		"element": "ice",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Woolf.png",
+		"moves": [
+			"basic_attack",
+			"ice_shard",
+			"aurora_beam",
+			"frostbite"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "frozen_tundra"
+			},
+			{
+				"level": 5,
+				"move": "ice_shard"
+			},
+			{
+				"level": 10,
+				"move": "aurora_beam"
+			},
+			{
+				"level": 15,
+				"move": "chilly_aura"
+			},
+			{
+				"level": 22,
+				"move": "frostbite"
+			}
+		],
+		"signature_move": "frozen_tundra",
+		"evolves_to": "",
+		"description": "Woolf howls and the temperature drops 20 degrees. It leads its pack across frozen tundra.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Spiral Cave",
+			"Spiral Path",
+			"Spiral Road",
+			"Northside",
+			"Heavenly Greens Gate",
+			"Southshire Bridge"
+		]
+	},
+	"yugel": {
+		"name": "Yugel",
+		"hp": 88,
+		"attack": 13,
+		"defense": 3,
+		"speed": 12,
+		"element": "ice",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Yugel.png",
+		"moves": [
+			"basic_attack",
+			"ice_shard",
+			"icy_wind",
+			"chilly_aura"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "blizzard"
+			},
+			{
+				"level": 5,
+				"move": "ice_shard"
+			},
+			{
+				"level": 12,
+				"move": "icy_wind"
+			},
+			{
+				"level": 20,
+				"move": "chilly_aura"
+			}
+		],
+		"signature_move": "blizzard",
+		"evolves_to": "",
+		"description": "Yugel lives in the highest peaks where nothing else survives. It considers cold weather warm.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Northside"
+		]
+	},
+	"kysebok": {
+		"name": "Kysebok",
+		"hp": 120,
+		"attack": 20,
+		"defense": 5,
+		"speed": 13,
+		"element": "ice",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Kysebok.png",
+		"moves": [
+			"basic_attack",
+			"ice_shard",
+			"aurora_beam",
+			"frostbite"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "frozen_tundra"
+			},
+			{
+				"level": 5,
+				"move": "ice_shard"
+			},
+			{
+				"level": 10,
+				"move": "aurora_beam"
+			},
+			{
+				"level": 18,
+				"move": "chilly_aura"
+			},
+			{
+				"level": 25,
+				"move": "frostbite"
+			}
+		],
+		"signature_move": "frozen_tundra",
+		"evolves_to": "",
+		"description": "A legendary Scandinavian ice beast with horns that can freeze anything they touch.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		}
+	},
+	"friedrich": {
+		"name": "Friedrich",
+		"hp": 125,
+		"attack": 19,
+		"defense": 4,
+		"speed": 14,
+		"element": "ice",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Friedrich.png",
+		"moves": [
+			"basic_attack",
+			"ice_shard",
+			"aurora_beam",
+			"chilly_aura"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "blizzard"
+			},
+			{
+				"level": 5,
+				"move": "ice_shard"
+			},
+			{
+				"level": 10,
+				"move": "aurora_beam"
+			},
+			{
+				"level": 15,
+				"move": "chilly_aura"
+			},
+			{
+				"level": 22,
+				"move": "frostbite"
+			}
+		],
+		"signature_move": "blizzard",
+		"evolves_to": "",
+		"description": "Friedrich keeps meticulous records of every battle. It has never been surprised.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"MadBeetch Rapids"
+		]
+	},
+	"zuki": {
+		"name": "Zuki",
+		"hp": 82,
+		"attack": 12,
+		"defense": 2,
+		"speed": 14,
+		"element": "ice",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Zuki.png",
+		"moves": [
+			"basic_attack",
+			"ice_shard",
+			"icy_wind",
+			"frostbite"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "blizzard"
+			},
+			{
+				"level": 5,
+				"move": "ice_shard"
+			},
+			{
+				"level": 12,
+				"move": "icy_wind"
+			},
+			{
+				"level": 20,
+				"move": "frostbite"
+			}
+		],
+		"signature_move": "blizzard",
+		"evolves_to": "",
+		"description": "Zuki forms a shell of ice around itself when threatened. It thaws out when danger passes.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Northside"
+		]
+	},
+	"metalear": {
+		"name": "Metalear",
+		"hp": 100,
+		"attack": 13,
+		"defense": 6,
+		"speed": 9,
+		"element": "metal",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Metalear.png",
+		"moves": [
+			"basic_attack",
+			"iron_head",
+			"iron_will",
+			"corrode"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "iron_cannon"
+			},
+			{
+				"level": 5,
+				"move": "iron_head"
+			},
+			{
+				"level": 10,
+				"move": "metal_claw"
+			},
+			{
+				"level": 18,
+				"move": "iron_will"
+			},
+			{
+				"level": 25,
+				"move": "corrode"
+			}
+		],
+		"signature_move": "iron_cannon",
+		"evolves_to": "",
+		"description": "Metalear's ears are solid titanium and pick up radio signals from across the planet.",
+		"growth": {
+			"hp": 9,
+			"attack": 1,
+			"defense": 2,
+			"speed": 1
+		},
+		"locations": [
+			"Trollworthy Bridge"
+		]
+	},
+	"prototype_zero": {
+		"name": "Prototype Zero",
+		"hp": 165,
+		"attack": 26,
+		"defense": 10,
+		"speed": 19,
+		"element": "metal",
+		"rarity": "legendary",
+		"sprite": "res://assets/monsters/Prototype Zero.png",
+		"moves": [
+			"basic_attack",
+			"iron_head",
+			"metal_claw",
+			"corrode"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "zero_cannon"
+			},
+			{
+				"level": 5,
+				"move": "iron_head"
+			},
+			{
+				"level": 10,
+				"move": "metal_claw"
+			},
+			{
+				"level": 18,
+				"move": "steel_wing"
+			},
+			{
+				"level": 28,
+				"move": "corrode"
+			}
+		],
+		"signature_move": "zero_cannon",
+		"evolves_to": "",
+		"description": "The first and most powerful mechanical moga ever created. Its origin is classified.",
+		"growth": {
+			"hp": 12,
+			"attack": 3,
+			"defense": 2,
+			"speed": 1
+		},
+		"locations": [
+			"West Summer Road"
+		]
+	},
+	"peascorp": {
+		"name": "Peascorp",
+		"hp": 85,
+		"attack": 14,
+		"defense": 2,
+		"speed": 13,
+		"element": "poison",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Peascorp.png",
+		"moves": [
+			"basic_attack",
+			"poison_sting",
+			"acid",
+			"toxic_surge"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "toxic_blast"
+			},
+			{
+				"level": 5,
+				"move": "poison_sting"
+			},
+			{
+				"level": 10,
+				"move": "acid"
+			},
+			{
+				"level": 18,
+				"move": "toxic_surge"
+			},
+			{
+				"level": 25,
+				"move": "nauseate"
+			}
+		],
+		"signature_move": "toxic_blast",
+		"evolves_to": "spwinder",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Peascorp disguises itself as a harmless plant before striking with its venomous stinger.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Miasma Depths",
+			"Shadowmire Bulwark",
+			"Darkwood",
+			"Mourningwood Pass"
+		]
+	},
+	"spwinder": {
+		"name": "Spwinder",
+		"hp": 115,
+		"attack": 20,
+		"defense": 4,
+		"speed": 14,
+		"element": "poison",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Spwinder.png",
+		"moves": [
+			"basic_attack",
+			"poison_sting",
+			"toxic_surge",
+			"nauseate"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "toxic_blast"
+			},
+			{
+				"level": 5,
+				"move": "poison_sting"
+			},
+			{
+				"level": 10,
+				"move": "acid"
+			},
+			{
+				"level": 15,
+				"move": "toxic_surge"
+			},
+			{
+				"level": 22,
+				"move": "nauseate"
+			}
+		],
+		"signature_move": "toxic_blast",
+		"evolves_to": "",
+		"description": "Spwinder spins webs of pure venom. Prey dissolves within seconds of contact.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Sandswirl Point",
+			"Thornwood"
+		]
+	},
+	"paul": {
+		"name": "Paul",
+		"hp": 90,
+		"attack": 12,
+		"defense": 3,
+		"speed": 11,
+		"element": "poison",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Paul.png",
+		"moves": [
+			"basic_attack",
+			"poison_sting",
+			"acid",
+			"nauseate"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "venom_burst"
+			},
+			{
+				"level": 5,
+				"move": "poison_sting"
+			},
+			{
+				"level": 12,
+				"move": "acid"
+			},
+			{
+				"level": 20,
+				"move": "nauseate"
+			}
+		],
+		"signature_move": "venom_burst",
+		"evolves_to": "",
+		"description": "Paul has never made a wrong prediction. It chooses battles with absolute certainty.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Southshire Bridge"
+		]
+	},
+	"anee": {
+		"name": "Anee",
+		"hp": 82,
+		"attack": 11,
+		"defense": 2,
+		"speed": 14,
+		"element": "light",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Anee.png",
+		"moves": [
+			"basic_attack",
+			"holy_light",
+			"brilliant_glow",
+			"dazzle"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "solar_flare"
+			},
+			{
+				"level": 5,
+				"move": "holy_light"
+			},
+			{
+				"level": 12,
+				"move": "brilliant_glow"
+			},
+			{
+				"level": 20,
+				"move": "dazzle"
+			}
+		],
+		"signature_move": "solar_flare",
+		"evolves_to": "yoake",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Anee carries a tiny lantern that never goes out, lighting the way for lost travelers.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Sandswirl Beach",
+			"Shellstone Beachfront",
+			"Shellstone Lighthouse",
+			"Bushfall",
+			"Sandswirl Shrubwalk"
+		]
+	},
+	"yoake": {
+		"name": "Yoake",
+		"hp": 115,
+		"attack": 18,
+		"defense": 4,
+		"speed": 16,
+		"element": "light",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Yoake.png",
+		"moves": [
+			"basic_attack",
+			"holy_light",
+			"brilliant_glow",
+			"dazzle"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "solar_flare"
+			},
+			{
+				"level": 5,
+				"move": "holy_light"
+			},
+			{
+				"level": 10,
+				"move": "brilliant_glow"
+			},
+			{
+				"level": 18,
+				"move": "dazzle"
+			},
+			{
+				"level": 25,
+				"move": "divine_judgment"
+			}
+		],
+		"signature_move": "solar_flare",
+		"evolves_to": "",
+		"description": "Yoake embodies the moment just before dawn. Its light can pierce even the darkest shadow.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Heavenly Greens Cemetery",
+			"The Rue Morgue",
+			"Cydonia Castle"
+		]
+	},
+	"starpops": {
+		"name": "Starpops",
+		"hp": 80,
+		"attack": 12,
+		"defense": 2,
+		"speed": 15,
+		"element": "light",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Starpops.png",
+		"moves": [
+			"basic_attack",
+			"holy_light",
+			"dazzle",
+			"brilliant_glow"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "divine_judgment"
+			},
+			{
+				"level": 5,
+				"move": "holy_light"
+			},
+			{
+				"level": 12,
+				"move": "dazzle"
+			},
+			{
+				"level": 20,
+				"move": "brilliant_glow"
+			}
+		],
+		"signature_move": "divine_judgment",
+		"evolves_to": "",
+		"description": "Starpops shoots stars from its fingertips and loves to perform for audiences.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Gates of Windhym",
+			"Windhym Town Square",
+			"Windhym Southshire"
+		]
+	},
+	"peafyx": {
+		"name": "Peafyx",
+		"hp": 88,
+		"attack": 14,
+		"defense": 2,
+		"speed": 15,
+		"element": "light",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Peafyx.png",
+		"moves": [
+			"basic_attack",
+			"holy_light",
+			"brilliant_glow",
+			"dazzle"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "solar_flare"
+			},
+			{
+				"level": 5,
+				"move": "holy_light"
+			},
+			{
+				"level": 10,
+				"move": "brilliant_glow"
+			},
+			{
+				"level": 18,
+				"move": "dazzle"
+			},
+			{
+				"level": 25,
+				"move": "divine_judgment"
+			}
+		],
+		"signature_move": "solar_flare",
+		"evolves_to": "",
+		"description": "Peafyx rises from flame every century. Each rebirth makes it more radiant than before.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Shadowmire Bulwark",
+			"Darkwood",
+			"Windhym Southshire"
+		]
+	},
+	"boogaleef": {
+		"name": "Boogaleef",
+		"hp": 88,
+		"attack": 13,
+		"defense": 2,
+		"speed": 13,
+		"element": "dark",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Boogaleef.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"shadow_sneak",
+			"snarl"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "void_strike"
+			},
+			{
+				"level": 5,
+				"move": "shadow_sneak"
+			},
+			{
+				"level": 10,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 18,
+				"move": "snarl"
+			},
+			{
+				"level": 25,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "void_strike",
+		"evolves_to": "beaster",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Boogaleef hides under beds waiting for its victims. It is always smiling.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Bushfall",
+			"Swirly Dock",
+			"Sandswirl Shrubwalk",
+			"Sandswirl Point",
+			"Sandswirl Peninsula"
+		]
+	},
+	"beaster": {
+		"name": "Beaster",
+		"hp": 120,
+		"attack": 20,
+		"defense": 4,
+		"speed": 15,
+		"element": "dark",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Beaster.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"night_slash",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "shadow_storm"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 10,
+				"move": "night_slash"
+			},
+			{
+				"level": 15,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 22,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "shadow_storm",
+		"evolves_to": "",
+		"description": "Beaster has grown enormous and wears an unsettling holiday mask. No one has ever seen what's underneath.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Swirly Dock"
+		]
+	},
+	"meano": {
+		"name": "Meano",
+		"hp": 85,
+		"attack": 14,
+		"defense": 1,
+		"speed": 15,
+		"element": "dark",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Meano.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"snarl",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "void_strike"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 12,
+				"move": "snarl"
+			},
+			{
+				"level": 20,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "void_strike",
+		"evolves_to": "",
+		"description": "Meano exists solely to make others miserable. It has mastered the dark art of the mean face.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Shadowmire Bulwark"
+		]
+	},
+	"gocon": {
+		"name": "Gocon",
+		"hp": 90,
+		"attack": 13,
+		"defense": 3,
+		"speed": 12,
+		"element": "dark",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Gocon.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"umbral_shroud",
+			"snarl"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "void_strike"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 12,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 20,
+				"move": "snarl"
+			}
+		],
+		"signature_move": "void_strike",
+		"evolves_to": "",
+		"description": "Gocon surrounds itself in a dark cocoon and emerges transformed after every battle.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Darkwood"
+		]
+	},
+	"shadowstar": {
+		"name": "Shadowstar",
+		"hp": 105,
+		"attack": 21,
+		"defense": 2,
+		"speed": 18,
+		"element": "dark",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Shadowstar.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"night_slash",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "shadow_storm"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 10,
+				"move": "night_slash"
+			},
+			{
+				"level": 18,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 25,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "shadow_storm",
+		"evolves_to": "",
+		"description": "Shadowstar is born from fallen constellations. It leaves dark streaks across the night sky.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Darkwood Vault",
+			"The Rue Morgue"
+		]
+	},
+	"shadowstrike": {
+		"name": "Shadowstrike",
+		"hp": 120,
+		"attack": 24,
+		"defense": 3,
+		"speed": 17,
+		"element": "dark",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Shadowstrike.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"night_slash",
+			"umbral_shroud"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "shadow_storm"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 10,
+				"move": "night_slash"
+			},
+			{
+				"level": 15,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 22,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "shadow_storm",
+		"evolves_to": "",
+		"description": "Shadowstrike attacks without warning, blending into any shadow until the moment is perfect.",
+		"growth": {
+			"hp": 9,
+			"attack": 3,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Cydonia Castle",
+			"Gertrudes House"
+		]
+	},
+	"scenewolf": {
+		"name": "Scenewolf",
+		"hp": 88,
+		"attack": 15,
+		"defense": 2,
+		"speed": 14,
+		"element": "dark",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Scenewolf.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"night_slash",
+			"snarl"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "void_strike"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 12,
+				"move": "night_slash"
+			},
+			{
+				"level": 20,
+				"move": "snarl"
+			}
+		],
+		"signature_move": "void_strike",
+		"evolves_to": "",
+		"description": "Scenewolf claims to be misunderstood. It has a dramatic flair and is always posing in shadows.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Shadowmire Bulwark"
+		]
+	},
+	"teef": {
+		"name": "Teef",
+		"hp": 83,
+		"attack": 13,
+		"defense": 2,
+		"speed": 14,
+		"element": "dark",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Teef.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"shadow_sneak",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "void_strike"
+			},
+			{
+				"level": 5,
+				"move": "shadow_sneak"
+			},
+			{
+				"level": 12,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 20,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "void_strike",
+		"evolves_to": "",
+		"description": "Teef is all teeth and attitude. It bites first and never asks questions.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"MadBeetch Rapids"
+		]
+	},
+	"faust": {
+		"name": "Faust",
+		"hp": 110,
+		"attack": 21,
+		"defense": 3,
+		"speed": 16,
+		"element": "dark",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Faust.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"night_slash",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "eldritch_howl"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 10,
+				"move": "night_slash"
+			},
+			{
+				"level": 15,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 22,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "eldritch_howl",
+		"evolves_to": "",
+		"description": "Faust made a deal for ultimate power. The terms were not in its favour.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Trollworthy Bridge"
+		]
+	},
+	"yugure": {
+		"name": "Yugure",
+		"hp": 115,
+		"attack": 22,
+		"defense": 2,
+		"speed": 17,
+		"element": "dark",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Yugure.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"night_slash",
+			"umbral_shroud"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "shadow_storm"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 10,
+				"move": "night_slash"
+			},
+			{
+				"level": 18,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 25,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "shadow_storm",
+		"evolves_to": "",
+		"description": "Yugure exists in the twilight between day and night. It grows stronger as the sun sets.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Cydonia Castle"
+		]
+	},
+	"zomoo": {
+		"name": "Zomoo",
+		"hp": 95,
+		"attack": 13,
+		"defense": 3,
+		"speed": 10,
+		"element": "dark",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Zomoo.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"shadow_sneak",
+			"snarl"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "void_strike"
+			},
+			{
+				"level": 5,
+				"move": "shadow_sneak"
+			},
+			{
+				"level": 10,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 18,
+				"move": "snarl"
+			}
+		],
+		"signature_move": "void_strike",
+		"evolves_to": "",
+		"description": "Zomoo shuffles mindlessly but hits surprisingly hard. Its moo echoes for miles.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Heavenly Greens Steps",
+			"Heavenly Greens Cemetery",
+			"The Rue Morgue",
+			"Cydonia Castle"
+		]
+	},
+	"cathulu": {
+		"name": "Cathulu",
+		"hp": 175,
+		"attack": 28,
+		"defense": 5,
+		"speed": 22,
+		"element": "dark",
+		"rarity": "legendary",
+		"sprite": "res://assets/monsters/Cathulu.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"night_slash",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "eldritch_howl"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 10,
+				"move": "night_slash"
+			},
+			{
+				"level": 18,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 30,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "eldritch_howl",
+		"evolves_to": "",
+		"description": "An ancient cat-god from beyond reality. Cathulu's purring drives opponents to madness.",
+		"growth": {
+			"hp": 12,
+			"attack": 3,
+			"defense": 2,
+			"speed": 1
+		},
+		"locations": [
+			"MadBeetch River",
+			"MadBeetch Rapids"
+		]
+	},
+	"dauthus": {
+		"name": "Dauthus",
+		"hp": 170,
+		"attack": 30,
+		"defense": 6,
+		"speed": 20,
+		"element": "dark",
+		"rarity": "legendary",
+		"sprite": "res://assets/monsters/Dauthus.png",
+		"moves": [
+			"basic_attack",
+			"shadow_ball",
+			"night_slash",
+			"terrify"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "death_knell"
+			},
+			{
+				"level": 5,
+				"move": "shadow_ball"
+			},
+			{
+				"level": 10,
+				"move": "night_slash"
+			},
+			{
+				"level": 20,
+				"move": "umbral_shroud"
+			},
+			{
+				"level": 30,
+				"move": "terrify"
+			}
+		],
+		"signature_move": "death_knell",
+		"evolves_to": "",
+		"description": "Dauthus is the embodiment of the end. Where it walks, silence follows.",
+		"growth": {
+			"hp": 12,
+			"attack": 3,
+			"defense": 2,
+			"speed": 1
+		},
+		"locations": [
+			"Heavenly Greens Gate"
+		]
+	},
+	"mimpi": {
+		"name": "Mimpi",
+		"hp": 80,
+		"attack": 11,
+		"defense": 2,
+		"speed": 15,
+		"element": "magic",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Mimpi.png",
+		"moves": [
+			"basic_attack",
+			"arcane_blast",
+			"dream_eater",
+			"mystic_barrier"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "dream_weave"
+			},
+			{
+				"level": 5,
+				"move": "arcane_blast"
+			},
+			{
+				"level": 10,
+				"move": "dream_eater"
+			},
+			{
+				"level": 18,
+				"move": "mystic_barrier"
+			},
+			{
+				"level": 25,
+				"move": "lullaby"
+			}
+		],
+		"signature_move": "dream_weave",
+		"evolves_to": "mimple",
+		"evolve_monsters_needed": 3,
+		"evolve_potions_needed": 2,
+		"description": "Mimpi feeds on dreams. Good dreams make it stronger; nightmares make it wild.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Windhym Town Square"
+		]
+	},
+	"mimple": {
+		"name": "Mimple",
+		"hp": 112,
+		"attack": 18,
+		"defense": 4,
+		"speed": 16,
+		"element": "magic",
+		"rarity": "rare",
+		"sprite": "res://assets/monsters/Mimple.png",
+		"moves": [
+			"basic_attack",
+			"arcane_blast",
+			"dream_eater",
+			"silence"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "dream_weave"
+			},
+			{
+				"level": 5,
+				"move": "arcane_blast"
+			},
+			{
+				"level": 10,
+				"move": "dream_eater"
+			},
+			{
+				"level": 15,
+				"move": "mystic_barrier"
+			},
+			{
+				"level": 22,
+				"move": "silence"
+			}
+		],
+		"signature_move": "dream_weave",
+		"evolves_to": "",
+		"description": "Mimple has mastered the architecture of the dream world. It builds labyrinths where foes get lost.",
+		"growth": {
+			"hp": 9,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Northside",
+			"Heavenly Greens Steps",
+			"Trollworthy Bridge"
+		]
+	},
+	"siri": {
+		"name": "Siri",
+		"hp": 82,
+		"attack": 12,
+		"defense": 2,
+		"speed": 14,
+		"element": "magic",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Siri.png",
+		"moves": [
+			"basic_attack",
+			"arcane_blast",
+			"mystic_barrier",
+			"silence"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "arcane_nova"
+			},
+			{
+				"level": 5,
+				"move": "arcane_blast"
+			},
+			{
+				"level": 12,
+				"move": "mystic_barrier"
+			},
+			{
+				"level": 20,
+				"move": "silence"
+			}
+		],
+		"signature_move": "arcane_nova",
+		"evolves_to": "",
+		"description": "Siri knows the answer to every question but only speaks when asked very nicely.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Windhym Roadway",
+			"Windhym Flower Path",
+			"Gates of Windhym",
+			"Windhym Southshire"
+		]
+	},
+	"melodee": {
+		"name": "Melodee",
+		"hp": 85,
+		"attack": 12,
+		"defense": 2,
+		"speed": 16,
+		"element": "magic",
+		"rarity": "common",
+		"sprite": "res://assets/monsters/Melodee.png",
+		"moves": [
+			"basic_attack",
+			"arcane_blast",
+			"lullaby",
+			"mystic_barrier"
+		],
+		"learnset": [
+			{
+				"level": 1,
+				"move": "basic_attack"
+			},
+			{
+				"level": 1,
+				"move": "arcane_nova"
+			},
+			{
+				"level": 5,
+				"move": "arcane_blast"
+			},
+			{
+				"level": 10,
+				"move": "lullaby"
+			},
+			{
+				"level": 18,
+				"move": "mystic_barrier"
+			},
+			{
+				"level": 25,
+				"move": "silence"
+			}
+		],
+		"signature_move": "arcane_nova",
+		"evolves_to": "",
+		"description": "Melodee's song can calm any storm or drive any crowd into a frenzy. It chooses wisely.",
+		"growth": {
+			"hp": 8,
+			"attack": 2,
+			"defense": 1,
+			"speed": 1
+		},
+		"locations": [
+			"Windhym Roadway",
+			"Windhym Gardens"
+		]
+	}
+}

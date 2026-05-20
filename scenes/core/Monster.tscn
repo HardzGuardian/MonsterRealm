@@ -1,0 +1,56 @@
+[gd_scene format=3 uid="uid://td83i1ld6xl1"]
+
+[ext_resource type="Script" uid="uid://cp5hx02l3qbmf" path="res://scripts/monster/Monster.gd" id="1_571ym"]
+[ext_resource type="Script" uid="uid://dyrx5qu4ttv01" path="res://scripts/monster/MonsterIdle.gd" id="1_xwjbx"]
+[ext_resource type="Texture2D" path="res://assets/monsters/Alyx.png" id="2_571ym"]
+
+[node name="Monster" type="Node2D" unique_id=1496197446]
+script = ExtResource("1_571ym")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=532103059]
+scale = Vector2(0.32, 0.345)
+texture = ExtResource("2_571ym")
+flip_h = false
+
+[node name="IdleController" type="Node2D" parent="." unique_id=1934616203]
+script = ExtResource("1_xwjbx")
+
+[node name="HealthBox" type="ColorRect" parent="."]
+z_index = 10
+offset_left = -100.0
+offset_top = -380.0
+offset_right = 100.0
+offset_bottom = -300.0
+color = Color(0.12, 0.16, 0.15, 0.85)
+
+[node name="NameLabel" type="Label" parent="HealthBox"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 10.0
+offset_right = 190.0
+offset_bottom = 35.0
+text = "Alyx"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="HPBarBg" type="ColorRect" parent="HealthBox"]
+layout_mode = 0
+offset_left = 10.0
+offset_top = 40.0
+offset_right = 190.0
+offset_bottom = 70.0
+color = Color(0.2, 0.2, 0.2, 1)
+
+[node name="HPBarFill" type="ColorRect" parent="HealthBox/HPBarBg"]
+layout_mode = 0
+offset_right = 180.0
+offset_bottom = 30.0
+color = Color(0.5, 0.5, 0.5, 1)
+
+[node name="HPText" type="Label" parent="HealthBox/HPBarBg"]
+layout_mode = 0
+offset_right = 180.0
+offset_bottom = 30.0
+text = "100%"
+horizontal_alignment = 1
+vertical_alignment = 1

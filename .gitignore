@@ -1,0 +1,37 @@
+# ── Godot ────────────────────────────────────────────────────────────────────
+.godot/
+android/
+
+# ── Godot import cache (regenerated automatically) ────────────────────────
+*.import
+*.uid
+
+# ── Temporary / backup files ─────────────────────────────────────────────────
+*.tmp
+*.bak
+*.swp
+*~
+
+# ── OS junk ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Video / large binary captures ────────────────────────────────────────────
+*.mp4
+*.mov
+*.avi
+
+# ── Raw vendor asset archives (processed assets live in assets/) ─────────────
+"VFx data/"
+"Ui new/"
+
+# ── Claude Code local config ─────────────────────────────────────────────────
+.claude/
+
+# ── Reference / scratch images ───────────────────────────────────────────────
+assets/done/
+
+# ── Build output ──────────────────────────────────────────────────────────────
+export/
+builds/
