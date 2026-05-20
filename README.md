@@ -5,6 +5,14 @@ Explore the Sunshire world map, battle wild monsters, catch them, level them up,
 
 ---
 
+## Gameplay
+
+| Battle | Capture | Evolution |
+|--------|---------|-----------|
+| ![Battle](demo/battle.gif) | ![Capture](demo/capture.gif) | ![Evolution](demo/evolution.gif) |
+
+---
+
 ## Features
 
 - **46-level world map** with branching paths and bezier dot trails

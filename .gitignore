@@ -31,6 +31,7 @@ desktop.ini
 
 # ── Reference / scratch images ───────────────────────────────────────────────
 assets/done/
+# demo/ is intentionally tracked — contains gameplay GIFs for README
 
 # ── Build output ──────────────────────────────────────────────────────────────
 export/
